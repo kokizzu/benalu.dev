@@ -5,6 +5,7 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
+    "rollup": "rollup",
     "start": "sirv static --no-clear"
   },
   "devDependencies": {
