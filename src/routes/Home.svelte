@@ -1,17 +1,123 @@
-<script>
-  import HowItWorks from "./HowItWorks.svelte";
-  import Info from "../components/Info.svelte";
-  import AboutUs from "../routes/AboutUs.svelte";
-  import OurServices from "./OurServices.svelte";
-  import OurTechs from "./OurTechs.svelte";
-  import WhyUs from "./WhyUs.svelte";
-  import Hero from "./Hero.svelte";
-</script>
+<script></script>
 
-<Hero />
-<OurServices />
-<AboutUs />
-<WhyUs />
-<HowItWorks />
-<OurTechs />
-<Info />
+<section id="Home" class="slider_section ">
+	<div class="container ">
+		<div class="row">
+			<div class="col-md-6 ">
+				<div class="detail-box">
+					<h1>
+						Development team <br/>
+						You can trust
+					</h1>
+					<p class="text-white text-left">
+						Nalu means wave/surf in Hawaiian.
+					</p>
+					<div class="btn-box text-left">
+						<a href="#OurServices" class="btn1"> Read More </a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="img-box-Header">
+					<img
+						src="https://tutorbees.net/assets/new_ui/sub-1.svg"
+						title="New image"
+						alt="Sub 1"
+						class="Slider-Image"
+					/>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<style>
+	#Home {
+		padding-top: 12em;
+		background: black;
+	}
+
+	.slider_section {
+		-webkit-box-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		position: relative;
+		padding: 45px 0 90px 0;
+	}
+
+	.slider_section .row {
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+
+	.slider_section .container {
+		padding: 0 25px;
+	}
+
+	.slider_section #customCarousel1 {
+		width: 100%;
+		position: unset;
+	}
+
+	.slider_section .detail-box {
+		color: #344d77;
+	}
+
+	.slider_section .detail-box h1 {
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 15px;
+		color: #ffffff;
+		text-align: left !important;
+	}
+
+	.slider_section .detail-box a {
+		display: inline-block;
+		padding: 10px 45px;
+		background-color: #ff7241;
+		color: #ffffff;
+		border-radius: 16px;
+
+		border: none;
+		margin-top: 15px;
+	}
+
+	.slider_section .detail-box a:hover {
+		background-color: #f43f00;
+	}
+
+	.slider_section .img-box img {
+		width: 100%;
+	}
+
+	.slider_section .carousel_btn_box {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		margin-bottom: 30px;
+		position: absolute;
+		bottom: 0;
+	}
+
+	.slider_section .carousel-control-prev,
+	.slider_section .carousel-control-next {
+		position: unset;
+		width: 45px;
+		height: 45px;
+		background-size: 18px;
+		background-position: center;
+		background-repeat: no-repeat;
+		outline: none;
+		margin-right: 10px;
+		background-color: #f9fafb;
+		color: #344d77;
+		opacity: 1;
+	}
+</style>
