@@ -10,9 +10,9 @@
         <div class="col-md-4">
           <div class="box b1">
             <div class="detail-box">
-              <h5>Latest Perfect-Fit Technology</h5>
+              <h5>Latest Best-Fit Technology</h5>
               <p>
-                We choose perfect fitting tech-stack, that fits specific use case, unlike other software house that using generalized tech-stack for almost everything. We do not conform to the popular/hyped tech, that are mostly sucks for specialized use case.
+                We choose best fitting tech-stack, that are perfect fit for your use case, unlike other software house that using generalized tech-stack to solve everything. We do not conform to the popular/hyped tech (ReactJS, Kubernetes, PHP, Rust, RoR, etc), that are mostly will be bad in terms of operational cost, maintainability, performance and scalability.
               </p>
             </div>
           </div>
@@ -22,7 +22,7 @@
             <div class="detail-box">
               <h5>Flexible Pricing</h5>
               <p>
-                You can hire us by man-hour, or lump-sump project based. We only outsource the UI/UX and Graphics Design when necessary (and it would be transparent), all other development and architecture all will be fully done by our internal team (we are so proud on our own code quality, so we won't trust it to other party). We also provide training for your own team for further internal development.
+                You can hire us by man-hour, or lump-sump project based. We only outsource the UI/UX and Graphics Design when necessary (and it would be transparent), all other development and architecture all will be fully implemented by our internal team (we are so proud on our own code quality, so we won't trust it to other party). We also provide training for your own team for further in-house development, so you won't get locked with us.
               </p>
             </div>
           </div>
