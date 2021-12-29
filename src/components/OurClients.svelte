@@ -8,7 +8,7 @@
     <div class="row">
       <div class="item col-sm-12 col-md-6 col-lg-3">
         <div class="box ">
-          <div class="detail-box mb-3">
+          <div class="detail-box mb-3 text-left">
             <h5>Alina Hill</h5>
             <h6>Magna</h6>
             <p>
@@ -22,7 +22,7 @@
       </div>
       <div class=" item col-sm-12 col-md-6 col-lg-3">
         <div class="box">
-          <div class="detail-box mb-3">
+          <div class="detail-box mb-3 text-left">
             <h5>Fiona MacBeth</h5>
             <h6>Magna</h6>
             <p>
@@ -36,7 +36,7 @@
       </div>
       <div class="item col-sm-12 col-md-6 col-lg-3">
         <div class="box">
-          <div class="detail-box mb-3">
+          <div class="detail-box mb-3 text-left">
             <h5>Alina Hill</h5>
             <h6>Magna</h6>
             <p>
@@ -50,7 +50,7 @@
       </div>
       <div class="item col-sm-12 col-md-6 col-lg-3">
         <div class="box">
-          <div class="detail-box mb-3">
+          <div class="detail-box mb-3 text-left">
             <h5>Fiona MacBeth</h5>
             <h6>Magna</h6>
             <p>

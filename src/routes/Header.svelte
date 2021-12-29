@@ -41,13 +41,14 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="/#/services">Services</a>
+              <!-- <a class="nav-link" href="/#/services">Services</a> -->
+              <a href="/#/Services" class="nav-link">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/#/about"> About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#/contactUs">Contact Us</a>
+              <a class="nav-link" href="/#/contact">Contact Us</a>
             </li>
             <li class="nav-item">
               <button
@@ -88,7 +89,7 @@
         </div>
       </div>
       <li class="nav-item active offcanvas-body-li">
-        <a class="nav-link" href="/#/Home">Home </a>
+        <a class="nav-link" href="/">Home </a>
       </li>
 
       <li class="nav-item offcanvas-body-li">
@@ -98,7 +99,7 @@
         <a class="nav-link" href="/#/about"> About</a>
       </li>
       <li class="nav-item offcanvas-body-li">
-        <a class="nav-link" href="/#/contactUs">Contact Us</a>
+        <a class="nav-link" href="/#/contact">Contact Us</a>
       </li>
     </div>
   </div>
@@ -111,13 +112,13 @@
               We Provide <br />
               Softare Services
             </h1>
-            <p class="text-white">
+            <p class="text-white text-left">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum
               magnam, voluptates distinctio, officia architecto tenetur debitis
               hic aspernatur libero commodi atque fugit adipisci, blanditiis
               quidem dolorum odit voluptas? Voluptate, eveniet?
             </p>
-            <div class="btn-box">
+            <div class="btn-box text-left">
               <a href="#ReaMore" class="btn1"> Read More </a>
             </div>
           </div>
