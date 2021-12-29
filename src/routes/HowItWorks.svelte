@@ -40,5 +40,5 @@
 	#HowItWorks {
 		background: black;
 	}
-	
+
 </style>

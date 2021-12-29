@@ -18,7 +18,8 @@
 						<h2 class="section-title">About Us</h2>
 					</div>
 					<p class="text-left">
-						We are a team of multi-cultured experienced developers and researchers that works for various startups,
+						We are a team of multi-cultured experienced developers and researchers that works for various
+						startups,
 						unicorns, and universities in Indonesia, United States, Japan, Singapore, and Thailand.
 					</p>
 					<ul>
@@ -45,6 +46,7 @@
 		background: none;
 		padding: 0;
 	}
+
 	#AboutUs {
 		background: black;
 	}

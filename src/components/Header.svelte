@@ -16,7 +16,7 @@
 			<nav class="navbar navbar-expand-lg custom_nav-container ">
 				<a
 					class="navbar-brand  text-white d-flex align-items-center"
-					href="/#/Home"
+					href="#Home"
 				>
 					<img
 						src="https://blogger.googleusercontent.com/img/a/AVvXsEi-JWOvGCAdYsg0KcLYS5CNEfcD79S9vZVWRVDnEvdxU9Tr92Ki5Br-y6vQbpfxGahewNkPTS47EXlPkv7inyfTMXStSrrU_on-rnsCd-hAUr3XdyopommFUvaTpYFj33qtA2WsOyb8u9cflCBAoOHBSYfIIXVZeeQwmmAMAeQ1FmKMopvQemaJfNiEXA=s1200"

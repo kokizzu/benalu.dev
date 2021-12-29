@@ -181,6 +181,7 @@
 		border: 1px solid #dddddd;
 		padding: 25px;
 		margin-left: 30px;
+		border-radius: 16px;
 	}
 
 	.client_section .box .detail-box h5 {
