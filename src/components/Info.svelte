@@ -95,13 +95,13 @@
                         <!--            </a>-->
                         <p>
                             <i class="fa fa-envelope" aria-hidden="true"/>
-                            <a href="mailto:admin@benalu.dev">admin@benalu.dev</a>
+                            <a class="x" href="mailto:admin@benalu.dev">admin@benalu.dev</a>
                             <br/>
                         </p>
-                        <p>
-                            <i class="fa fa-envelope" aria-hidden="true"/>
-                            <a href="//github.com/benalucorp">github</a>
-                        </p>
+<!--                        <p>-->
+<!--                            <i class="fa fa-envelope" aria-hidden="true"/>-->
+<!--                            <a class="x" href="//github.com/benalucorp">our github</a>-->
+<!--                        </p>-->
                         <!--            <p>-->
                         <!--              <i class="fa fa-clock-o" aria-hidden="true" />-->
                         <!--              <span> Mon-Sat: 09.00 am - 06.00 pm </span>-->
@@ -118,7 +118,7 @@
 </section>
 
 <style>
-    a {
+    a.x {
         color: lawngreen;
     }
 

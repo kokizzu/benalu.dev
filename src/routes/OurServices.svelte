@@ -26,7 +26,7 @@
             <div class="detail-box">
               <h5>IT Infrastructure Setup</h5>
               <p>
-                We can design and implement fully documented architecture and infrastructure needed for your business growth. We can set you up the infrastructure, automatic scaling strategy, either on premise or cloud.
+                We can design and implement fully documented architecture and infrastructure needed for your business growth. We can set you up the infrastructure, automatic scaling strategy, either on-premise or cloud.
               </p>
             </div>
           </div>

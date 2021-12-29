@@ -40,7 +40,7 @@
 
 <style>
     a.x, a.x:hover {
-        color: limegreen;
+        color: lightgreen;
         border: none;
         background: none;
         padding: 0;

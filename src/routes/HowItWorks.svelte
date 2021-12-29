@@ -11,6 +11,9 @@
           <p class="text-left">
             Send us email, and lets do video call so we can collect what are the requirements, what problems you want us to solve, and we can create the timeline and our breakdown estimate.
           </p>
+          <p class="text-left">
+            We are currently developing our in-house analytics, logging, monitoring, and payment platform.
+          </p>
           <a href="#OurTechs" class="pb-3 text-left"> Read More </a>
         </div>
       </div>
