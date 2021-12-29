@@ -57,33 +57,11 @@
 			<div class="item col-sm-12 col-md-6 col-lg-3">
 				<div class="box">
 					<div class="detail-box mb-3 text-left">
-						<h5>RedPanda</h5>
-						<h6><a href="//vectorized.io">vectorized.io</a></h6>
-						<p>
-							RedPanda is one of the fastest PubSub/message-queue that are Kafka-compatible.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
 						<h5>Jelastic</h5>
 						<h6><a href="//jelastic.cloud">jelastic.cloud</h6>
 						<p>
 							Jelastic is super flexible PaaS: platform as a service and IaaS: infrastructure as a service
 							provider.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Materialize IO</h5>
-						<h6><a href="//materialize.com">materialize.com</h6>
-						<p>
-							Materialize is one of the fastest streaming database for realtime analytics use-case.
 						</p>
 					</div>
 				</div>
@@ -102,6 +80,28 @@
 			<div class="item col-sm-12 col-md-6 col-lg-3">
 				<div class="box">
 					<div class="detail-box mb-3 text-left">
+						<h5>RedPanda</h5>
+						<h6><a href="//vectorized.io">vectorized.io</a></h6>
+						<p>
+							RedPanda is one of the fastest PubSub/message-queue that are Kafka-compatible.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="item col-sm-12 col-md-6 col-lg-3">
+				<div class="box">
+					<div class="detail-box mb-3 text-left">
+						<h5>Materialize IO</h5>
+						<h6><a href="//materialize.com">materialize.com</h6>
+						<p>
+							Materialize is one of the fastest streaming database for realtime analytics use-case.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="item col-sm-12 col-md-6 col-lg-3">
+				<div class="box">
+					<div class="detail-box mb-3 text-left">
 						<h5>TypeSense</h5>
 						<h6><a href="//typesense.org">typesense.org</h6>
 						<p>
@@ -113,10 +113,10 @@
 			<div class="item col-sm-12 col-md-6 col-lg-3">
 				<div class="box">
 					<div class="detail-box mb-3 text-left">
-						<h5>Unity 3D</h5>
-						<h6><a href="//unity3d.com">unity3d.com</h6>
+						<h5>TiDB</h5>
+						<h6><a href="//en.pingcap.com">en.pingcap.com</h6>
 						<p>
-							Unity3D is most popular game engine that uses C#.
+							TiDB is one of the auto-healing database that compatible with MySQL.
 						</p>
 					</div>
 				</div>
@@ -124,10 +124,10 @@
 			<div class="item col-sm-12 col-md-6 col-lg-3">
 				<div class="box">
 					<div class="detail-box mb-3 text-left">
-						<h5>TiDB</h5>
-						<h6><a href="//en.pingcap.com">en.pingcap.com</h6>
+						<h5>Unity 3D</h5>
+						<h6><a href="//unity3d.com">unity3d.com</h6>
 						<p>
-							TiDB is one of the auto-healing database that compatible with MySQL.
+							Unity3D is most popular game engine that uses C#.
 						</p>
 					</div>
 				</div>
