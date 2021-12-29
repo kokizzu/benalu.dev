@@ -17,7 +17,7 @@
           <div class="heading_container">
             <h2 class="section-title">About Us</h2>
           </div>
-          <p>
+          <p class="text-left">
             Lorem et magna justo ut invidunt est. Clita gubergren et et nonumy
             at elitr amet, eos duo invidunt et justo dolor rebum, no et labore
             ipsum lorem, dolor sea elitr accusam rebum.Lorem et magna justo ut

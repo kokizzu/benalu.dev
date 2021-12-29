@@ -1,34 +1,29 @@
 <script>
-  import AboutUs from "./components/AboutUs.svelte";
   import Router from "svelte-spa-router";
-  import Cards from "./components/Cards.svelte";
+  import routes from "./routes";
+  import Header from "./routes/Header.svelte";
   import Footer from "./components/Footer.svelte";
-  import Home from "./components/Home.svelte";
-  import Header from "./components/Header.svelte";
-  import ContactUs from "./components/ContactUS.svelte";
 </script>
 
-<main>
+<main class="nev-nev">
   <Header />
-  <Router
-    routes={{
-      "/": Home,
-      "/about": AboutUs,
-      "/services": Cards,
-      "/ContactUS": ContactUs,
-    }}
-  />
+  <Router {routes} />
   <Footer />
 </main>
 
 <style>
-  /* :global(body) {
-    background-color: #040126;
-    color: #0084f6;
-    transition: background-color 0.3s;
+  main {
+    padding: 1em;
+    max-width: 330px;
+    margin: 0 auto;
   }
-  :global(body.dark-mode) {
-    background-color: #040126 !important;
-    color: #bfc2c7 !important;
-  } */
+  .nev-nev {
+    max-width: none !important;
+  }
+
+  @media (min-width: 640px) {
+    main {
+      max-width: none;
+    }
+  }
 </style>

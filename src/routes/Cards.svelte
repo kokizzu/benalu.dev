@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <section class="service_section layout_padding">
   <div class="container">
     <div class="heading_container heading_center">

@@ -4,11 +4,11 @@
   <div class="container  my-5">
     <div class="row">
       <div class="col-md-6">
-        <div class="detail-box">
+        <div class="detail-box text-left">
           <div class="heading_container">
             <h2 class="section-title">How It Works</h2>
           </div>
-          <p>
+          <p class="text-left">
             Lorem et magna justo ut invidunt est. Clita gubergren et et nonumy
             at elitr amet, eos duo invidunt et justo dolor rebum, no et labore
             ipsum lorem, dolor sea elitr accusam rebum.Lorem et magna justo ut
@@ -16,7 +16,7 @@
             invidunt et justo dolor rebum, no et labore ipsum lorem, dolor sea
             elitr accusam rebum.
           </p>
-          <a href="#ReadMore" class="pb-3"> Read More </a>
+          <a href="#ReadMore" class="pb-3 text-left"> Read More </a>
         </div>
       </div>
       <div class="col-md-6 ">
