@@ -1,11 +1,6 @@
 <script>
-  function toggle() {
-    window.document.body.classList.toggle("dark-mode");
-  }
-
   let navWidth = 0;
   const openNav = () => {
-    //   Increase Width as you want
     navWidth = 100;
   };
   const closeNav = () => {
@@ -41,18 +36,16 @@
         >
           <ul class="navbar-nav  " style="margin-top: 0px;">
             <li class="nav-item active">
-              <a class="nav-link" href="/#/Home">Home </a>
-            </li>
-
-            <li class="nav-item">
-              <!-- <a class="nav-link" href="/#/services">Services</a> -->
-              <a href="/#/Services" class="nav-link">Services</a>
+              <a class="nav-link" href="#Home">Home </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#/about"> About</a>
+              <a  class="nav-link" href="#OurServices">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#/contact">Contact Us</a>
+              <a class="nav-link" href="#AboutUs"> About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ContactUs">Contact Us</a>
             </li>
             <li class="nav-item" on:click={openNav}>
               <button class="nav-link bar-toggler"
@@ -87,17 +80,17 @@
         </div>
       </div>
       <li class="nav-item active offcanvas-body-li">
-        <a class="nav-link text-white" href="/#/Home">Home </a>
+        <a class="nav-link text-white" href="#Home">Home </a>
       </li>
 
       <li class="nav-item offcanvas-body-li">
-        <a class="nav-link text-white" href="/#/services">Services</a>
+        <a class="nav-link text-white" href="#OurServices">Services</a>
       </li>
       <li class="nav-item offcanvas-body-li">
-        <a class="nav-link text-white" href="/#/about"> About</a>
+        <a class="nav-link text-white" href="#AboutUs"> About</a>
       </li>
       <li class="nav-item offcanvas-body-li">
-        <a class="nav-link text-white" href="/#/contact">Contact Us</a>
+        <a class="nav-link text-white" href="#ContactUs">Contact Us</a>
       </li>
     </div>
   </div>
@@ -149,9 +142,7 @@
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: 040126;
     overflow-x: hidden;
-
     padding-top: 0px;
   }
   .nav-item:hover {

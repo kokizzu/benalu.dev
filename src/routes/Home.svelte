@@ -1,17 +1,17 @@
 <script>
-  import HowItWorks from "../components/HowItWorks.svelte";
-  import Info from "../components/Info.svelte";
+  import HowItWorks from "./HowItWorks.svelte";
+  import Info from "./Info.svelte";
   import AboutUs from "../routes/AboutUs.svelte";
-  import Cards from "./Cards.svelte";
-  import OurClients from "../components/OurClients.svelte";
-  import WhyUs from "../components/WhyUs.svelte";
+  import OurServices from "./OurServices.svelte";
+  import OurTechs from "./OurTechs.svelte";
+  import WhyUs from "./WhyUs.svelte";
   import Hero from "./Hero.svelte";
 </script>
 
 <Hero />
-<Cards />
+<OurServices />
 <AboutUs />
 <WhyUs />
 <HowItWorks />
-<OurClients />
+<OurTechs />
 <Info />

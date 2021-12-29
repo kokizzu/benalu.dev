@@ -1,13 +1,12 @@
 <script>
-  import Router from "svelte-spa-router";
-  import routes from "./routes";
-  import Header from "./routes/Header.svelte";
+  import Home from "./routes/Home.svelte"
+  import Header from "./components/Header.svelte";
   import Footer from "./components/Footer.svelte";
 </script>
 
 <main class="nev-nev">
   <Header />
-  <Router {routes} />
+  <Home />
   <Footer />
 </main>
 

@@ -1,6 +1,6 @@
 <script></script>
 
-<section class="about_section about_section2">
+<section id="HowItWorks" class="about_section about_section2">
   <div class="container  my-5">
     <div class="row">
       <div class="col-md-6">
@@ -9,14 +9,9 @@
             <h2 class="section-title">How It Works</h2>
           </div>
           <p class="text-left">
-            Lorem et magna justo ut invidunt est. Clita gubergren et et nonumy
-            at elitr amet, eos duo invidunt et justo dolor rebum, no et labore
-            ipsum lorem, dolor sea elitr accusam rebum.Lorem et magna justo ut
-            invidunt est. Clita gubergren et et nonumy at elitr amet, eos duo
-            invidunt et justo dolor rebum, no et labore ipsum lorem, dolor sea
-            elitr accusam rebum.
+            Send us email, and lets do video call so we can collect what are the requirements, what problems you want us to solve, and we can create the timeline and our breakdown estimate.
           </p>
-          <a href="#ReadMore" class="pb-3 text-left"> Read More </a>
+          <a href="#OurTechs" class="pb-3 text-left"> Read More </a>
         </div>
       </div>
       <div class="col-md-6 ">
