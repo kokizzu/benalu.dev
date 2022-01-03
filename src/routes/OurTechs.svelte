@@ -165,6 +165,17 @@
 					</div>
 				</div>
 			</div>
+			<div class="item col-sm-12 col-md-6 col-lg-3">
+				<div class="box">
+					<div class="detail-box mb-3 text-left">
+						<h5>Nomad</h5>
+						<h6><a href="//nomadproject.io">nomadproject.io</h6>
+						<p>
+							Workload orchestrator.
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="btn-box">
