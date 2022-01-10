@@ -1,4 +1,4 @@
-<section id="OurServices" class="service_section layout_padding">
+/<section id="OurServices" class="service_section layout_padding">
 	<div class="container">
 		<div class="heading_container heading_center">
 			<h2 class="section-title">Our Services</h2>
@@ -44,7 +44,7 @@
 						<div class="detail-box">
 							<h5>System Development</h5>
 							<p>
-								For each SRS and SDS we can implement modular monolith or server oriented microservices.
+								For each SRS and SDS we can implement modular monolith or service-oriented microservices.
 								Using latest technology, with maintainable and tested code, you get the full source
 								code, so no vendor locking.
 							</p>
