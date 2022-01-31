@@ -43,7 +43,12 @@
 	}
 
 	a.link {
-
+		display: inline;
+		padding: 0;
+		margin: 0;
+		background-color: transparent;
+		color: rgb(71, 210, 120);
+		font-weight: bold;
 	}
 
 
@@ -107,5 +112,5 @@
 		-webkit-animation: after-animation 1500ms infinite;
 		animation: after-animation 1500ms infinite;
 	}
-
+	
 </style>

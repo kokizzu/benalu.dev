@@ -44,10 +44,11 @@
 
 <style>
 	a.x, a.x:hover {
-		color: limegreen;
+		color: rgb(71, 210, 120);
 		border: none;
 		background: none;
 		padding: 0;
+		font-weight: bold;
 	}
 
 	#AboutUs {
@@ -68,4 +69,5 @@
 	.img-box img {
 		width: 100%;
 	}
+
 </style>

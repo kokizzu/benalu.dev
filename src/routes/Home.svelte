@@ -7,7 +7,7 @@
 		<div class="row">
 			<div class="col-md-6 ">
 				<div class="detail-box">
-					<h1>
+					<h1 style="color: orange">
 						Development team <br/>
 						You can trust
 					</h1>
@@ -34,6 +34,7 @@
 </section>
 
 <style>
+	
 	#Home {
 		padding-top: 12em;
 		background: black;

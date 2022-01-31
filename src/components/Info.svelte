@@ -122,7 +122,7 @@
 
 <style>
 	a.x {
-		color: limegreen;
+		color: rgb(71, 210, 120);
 	}
 
 	.info_section {
@@ -155,7 +155,7 @@
 	.info_section .info_contact .contact_link_box a,
 	.info_section .info_contact .contact_link_box p {
 		margin: 5px 0;
-		color: limegreen;
+		color: rgb(71, 210, 120);
 	}
 
 	.info_section .info_contact .contact_link_box a i,

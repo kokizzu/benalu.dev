@@ -95,6 +95,7 @@ a:focus {
 
 .section-title {
   padding-top: 2em;
+  color: orange;
 }
 .section-title::after {
   height: 5px;
@@ -165,20 +166,6 @@ a:focus {
 .box:hover {
   cursor: pointer;
   border-right: 4px solid #040126;
-}
-.about_section .detail-box a {
-  display: inline-block;
-  padding: 10px 45px;
-  background-color: #ff7241;
-  color: #ffffff;
-  border-radius: 16px;
-
-  border: none;
-  margin-top: 15px;
-}
-
-.about_section .detail-box a:hover {
-  background-color: #f43f00;
 }
 
 .btn-box {
@@ -1364,4 +1351,5 @@ p {
 }
 
 /* Logo Image */
+
 

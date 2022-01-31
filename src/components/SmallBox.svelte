@@ -34,6 +34,9 @@
 
 	.box .detail-box p.title {
 		font-weight: 600;
+		color: orange;
+		padding-bottom: 0.2em;
+		font-size: 1.5em;
 	}
 
 	.box .detail-box p {
@@ -53,7 +56,7 @@
 	}
 
 	a {
-		color: limegreen;
+		color: rgb(71, 210, 120);
 	}
 
 </style>

@@ -24,6 +24,6 @@
 	}
 
 	.footer_section p a {
-		color: limegreen;
+		color: rgb(71, 210, 120);
 	}
 </style>
