@@ -33,23 +33,8 @@ body {
 a {
   text-decoration: none !important;
 }
-/* .Logo {
-  background-image: url("./Images/benalu.dev.svg");
-} */
 .layout_padding {
   padding: 90px 0;
-}
-
-.layout_padding2 {
-  padding: 75px 0;
-}
-
-.layout_padding2-top {
-  padding-top: 75px;
-}
-
-.layout_padding2-bottom {
-  padding-bottom: 75px;
 }
 
 .layout_padding-top {
@@ -76,11 +61,6 @@ a {
 .heading_container h2 {
   position: relative;
   font-weight: bold;
-  margin-bottom: 0;
-}
-
-.heading_container p {
-  margin-top: 10px;
   margin-bottom: 0;
 }
 
@@ -112,9 +92,7 @@ a:focus {
 .box {
   transition: all 0.5s ease;
 }
-main.svelte-1h6otfa {
-  text-align: left !important;
-}
+
 .section-title {
   padding-top: 2em;
 }
@@ -142,8 +120,7 @@ main.svelte-1h6otfa {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 90px;
+  margin: 90px auto 0;
   padding: 25px 25px 30px 25px;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
@@ -185,7 +162,6 @@ main.svelte-1h6otfa {
 }
 
 .about_section .img-box .play_btn button {
-  background-color: transparent;
   border: none;
   background-color: #ff7241;
   color: #ffffff;
@@ -1475,9 +1451,6 @@ p {
   text-align: center !important;
 }
 
-.bg-primary {
-  background-color: #0d6efd !important;
-}
 .text-white {
   color: white !important;
 }

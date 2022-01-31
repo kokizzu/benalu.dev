@@ -9,7 +9,7 @@
 </script>
 
 <div class="hero_area" id="Top">
-	<div class="hero_bg_box" style="height: 5em"/>
+	<div class="hero_bg_box" style="height: 5em"></div>
 
 	<header class="header_section">
 		<div class="container">
@@ -207,13 +207,6 @@
 		z-index: -1;
 	}
 
-	.hero_bg_box img {
-		width: 100%;
-		height: 100%;
-		-o-object-fit: cover;
-		object-fit: cover;
-	}
-
 	.header_section {
 		padding: 15px 0;
 	}
@@ -224,14 +217,9 @@
 		display: flex;
 	}
 
-	.navbar-brand span {
-		font-weight: bold;
-		font-size: 28px;
-		color: #ffffff;
-	}
-
 	.custom_nav-container {
-		padding: 0;
+		color: white;
+		padding: 0 4em 0 0;
 	}
 
 	.custom_nav-container .navbar-nav {
@@ -250,19 +238,7 @@
 	.custom_nav-container .navbar-nav .nav-item.active .nav-link {
 		color: white !important;
 	}
-
-	.custom_nav-container .nav_search-btn {
-		width: 35px;
-		height: 35px;
-		padding: 0;
-		border: none;
-		color: #ffffff;
-	}
-
-	.custom_nav-container .nav_search-btn:hover {
-		color: white !important;
-	}
-
+	
 	.custom_nav-container .navbar-toggler {
 		outline: none;
 	}
@@ -300,11 +276,6 @@
 		top: 10px;
 	}
 
-	.custom_nav-container .navbar-toggler[aria-expanded="true"] {
-		-webkit-transform: rotate(360deg);
-		transform: rotate(360deg);
-	}
-
 	.custom_nav-container .navbar-toggler[aria-expanded="true"] span {
 		-webkit-transform: rotate(45deg);
 		transform: rotate(45deg);
@@ -315,30 +286,5 @@
 		-webkit-transform: rotate(90deg);
 		transform: rotate(90deg);
 		top: 0;
-	}
-
-	.custom_nav-container .navbar-toggler[aria-expanded="true"] .s-1 {
-		-webkit-transform: rotate(45deg);
-		transform: rotate(45deg);
-		margin: 0;
-		margin-bottom: -4px;
-	}
-
-	.custom_nav-container .navbar-toggler[aria-expanded="true"] .s-2 {
-		display: none;
-	}
-
-	.custom_nav-container .navbar-toggler[aria-expanded="true"] .s-3 {
-		-webkit-transform: rotate(-45deg);
-		transform: rotate(-45deg);
-		margin: 0;
-		margin-top: -4px;
-	}
-
-	.custom_nav-container .navbar-toggler[aria-expanded="false"] .s-1,
-	.custom_nav-container .navbar-toggler[aria-expanded="false"] .s-2,
-	.custom_nav-container .navbar-toggler[aria-expanded="false"] .s-3 {
-		-webkit-transform: none;
-		transform: none;
 	}
 </style>

@@ -87,11 +87,4 @@
 		margin-top: 1.5em;
 	}
 
-	a {
-		color: limegreen;
-	}
-
-	div.btn-box a {
-		color: white
-	}
 </style>

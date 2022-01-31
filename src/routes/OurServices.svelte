@@ -2,7 +2,7 @@
 	import GoButton from "../components/GoButton.svelte";
 </script>
 
-/<section id="OurServices" class="service_section layout_padding">
+<section id="OurServices" class="service_section layout_padding">
 	<div class="container">
 		<div class="heading_container heading_center">
 			<h2 class="section-title">Our Services</h2>
@@ -72,10 +72,6 @@
 		margin-bottom: 20px;
 	}
 
-	.service_section .box .img-box img {
-		width: 100%;
-	}
-
 	.service_section .box .detail-box h5 {
 		font-weight: 600;
 		color: #ff7241;
@@ -85,17 +81,4 @@
 		margin: 0;
 	}
 
-	.service_section .btn-box a {
-		display: inline-block;
-		padding: 10px 45px;
-		background-color: #ff7241;
-		color: #ffffff;
-		border-radius: 16px;
-
-		border: none;
-	}
-
-	.service_section .btn-box a:hover {
-		background-color: #f43f00;
-	}
 </style>

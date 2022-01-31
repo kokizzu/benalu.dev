@@ -1,4 +1,6 @@
-<script></script>
+<script>
+import Flag from "./Flag.svelte";
+</script>
 
 <section class="info_section layout_padding2">
 	<div class="container">
@@ -9,13 +11,12 @@
 					<p>
 						development team you can trust.
 					</p>
-					<img src="https://hatscripts.github.io/circle-flags/flags/id.svg" width="32" alt="Indonesia">
-					<img src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="32"
-						  alt="United States of America">
-					<img src="https://hatscripts.github.io/circle-flags/flags/jp.svg" width="32" alt="Japan">
-					<img src="https://hatscripts.github.io/circle-flags/flags/sg.svg" width="32" alt="Singapore">
-					<img src="https://hatscripts.github.io/circle-flags/flags/th.svg" width="32" alt="Thailand">
-					<img src="https://hatscripts.github.io/circle-flags/flags/es.svg" width="32" alt="Spain">
+					<Flag code="id" alt="Indonesia" />
+					<Flag code="us" alt="United States of America" />
+					<Flag code="jp" alt="Japan" />
+					<Flag code="sg" alt="Singapore" />
+					<Flag code="th" alt="Thailand" />
+					<Flag code="es" alt="Spain" />
 					<!--          <div class="info_social">-->
 					<!--            <a href="#ReadMore">-->
 					<!--              <svg-->
@@ -140,10 +141,6 @@
 		text-align: left !important;
 	}
 
-	.text-left {
-		text-align: left !important;
-	}
-
 	.info_section .info_contact .contact_link_box {
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -164,14 +161,6 @@
 	.info_section .info_contact .contact_link_box a i,
 	.info_section .info_contact .contact_link_box p i {
 		margin-right: 5px;
-	}
-
-	.info_section .info_social {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		margin-top: 20px;
-		margin-bottom: 10px;
 	}
 
 	.info_section .info_social a {
@@ -198,69 +187,5 @@
 		color: #ff7241;
 	}
 
-	.info_section form input {
-		border: none;
-		padding: 10px;
-		background-color: #44649a;
-		width: 100%;
-		height: 45px;
-		color: #ffffff;
-		outline: none;
-	}
 
-	.info_section form input::-webkit-input-placeholder {
-		color: #ffffff;
-	}
-
-	.info_section form input:-ms-input-placeholder {
-		color: #ffffff;
-	}
-
-	.info_section form input::-ms-input-placeholder {
-		color: #ffffff;
-	}
-
-	.info_section form input::placeholder {
-		color: #ffffff;
-	}
-
-	.info_section form button {
-		width: 100%;
-		text-align: center;
-		display: inline-block;
-		padding: 10px 55px;
-		background-color: #ff7241;
-		color: #ffffff;
-		border-radius: 0;
-
-		border: none;
-		margin-top: 15px;
-	}
-
-	.info_section form button:hover {
-		background-color: #f43f00;
-	}
-
-	.info_section .map_container {
-		width: 100%;
-		height: 225px;
-		overflow: hidden;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-align: stretch;
-		-ms-flex-align: stretch;
-		align-items: stretch;
-	}
-
-	.info_section .map_container .map {
-		height: 100%;
-		-webkit-box-flex: 1;
-		-ms-flex: 1;
-		flex: 1;
-	}
-
-	.info_section .map_container .map #googleMap {
-		height: 100%;
-	}
 </style>

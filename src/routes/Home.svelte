@@ -61,11 +61,6 @@ import GoButton from "../components/GoButton.svelte";
 		padding: 0 25px;
 	}
 
-	.slider_section #customCarousel1 {
-		width: 100%;
-		position: unset;
-	}
-
 	.slider_section .detail-box {
 		color: #344d77;
 	}
@@ -77,22 +72,6 @@ import GoButton from "../components/GoButton.svelte";
 		color: #ffffff;
 		text-align: left !important;
 	}
-
-	.slider_section .detail-box a {
-		display: inline-block;
-		padding: 10px 45px;
-		background-color: #ff7241;
-		color: #ffffff;
-		border-radius: 16px;
-
-		border: none;
-		margin-top: 15px;
-	}
-
-	.slider_section .detail-box a:hover {
-		background-color: #f43f00;
-	}
-
 	.slider_section .img-box img {
 		width: 100%;
 	}

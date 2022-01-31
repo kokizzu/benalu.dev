@@ -11,7 +11,7 @@ import GoButton from "../components/GoButton.svelte";
 						<h2 class="section-title">How It Works</h2>
 					</div>
 					<p class="text-left">
-						Send us email, and lets do video call so we can collect what are the requirements, what problems
+						Send us <a href="mailto:admin@benalu.dev">email</a>, and lets do video call so we can collect what are the requirements, what problems
 						you want us to solve, and we can create the timeline and our breakdown estimate.
 					</p>
 					<p class="text-left">

@@ -22,12 +22,6 @@
 		display: flex;
 	}
 
-	.box .img-box img {
-		width: 100%;
-		border-radius: 100%;
-		border: 5px solid #ffffff;
-	}
-
 	.box .detail-box {
 		position: relative;
 		background-color: #344d77;

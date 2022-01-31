@@ -85,28 +85,6 @@ import GoButton from "../components/GoButton.svelte";
 		margin-top: 45px;
 	}
 
-	.why_section .box .img-box {
-		min-width: 90px;
-		min-height: 90px;
-		max-width: 90px;
-		margin-bottom: 20px;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-pack: center;
-		-ms-flex-pack: center;
-		justify-content: center;
-		-webkit-box-align: center;
-		-ms-flex-align: center;
-		align-items: center;
-		border-radius: 100%;
-		background-color: #ffffff;
-	}
-
-	.why_section .box .img-box img {
-		width: 45px;
-	}
-
 	.why_section .box .detail-box h5 {
 		font-weight: 600;
 		color: #ff7241;
