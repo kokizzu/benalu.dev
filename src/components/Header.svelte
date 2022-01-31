@@ -18,15 +18,16 @@
 					class="navbar-brand  text-white d-flex align-items-center"
 					href="#Home"
 				>
-					<img
-						src="https://blogger.googleusercontent.com/img/a/AVvXsEi-JWOvGCAdYsg0KcLYS5CNEfcD79S9vZVWRVDnEvdxU9Tr92Ki5Br-y6vQbpfxGahewNkPTS47EXlPkv7inyfTMXStSrrU_on-rnsCd-hAUr3XdyopommFUvaTpYFj33qtA2WsOyb8u9cflCBAoOHBSYfIIXVZeeQwmmAMAeQ1FmKMopvQemaJfNiEXA=s1200"
+					<!-- https://blogger.googleusercontent.com/img/a/AVvXsEi-JWOvGCAdYsg0KcLYS5CNEfcD79S9vZVWRVDnEvdxU9Tr92Ki5Br-y6vQbpfxGahewNkPTS47EXlPkv7inyfTMXStSrrU_on-rnsCd-hAUr3XdyopommFUvaTpYFj33qtA2WsOyb8u9cflCBAoOHBSYfIIXVZeeQwmmAMAeQ1FmKMopvQemaJfNiEXA=s1200 -->
+					<img width="80" height="80"
+						src="/benalu.dev.png"
 						alt="User"
 						class="LogoImage "
 					/>
 					<b class="ms-2">BeNalu Dev</b>
 				</a>
 
-				<button class="navbar-toggler" type="button" on:click={openNav}>
+				<button class="navbar-toggler" alt="menu" type="button" on:click={openNav}>
 					<span class=""/>
 				</button>
 
@@ -75,34 +76,36 @@
 		<div class="offcanvas-body">
 			<div class="w-100 d-flex">
 				<div class="flex-fill justify-content-end">
-					<button on:click={closeNav} class="closeNavbar float-end"
+					<button on:click={closeNav} alt='menu' class="closeNavbar float-end"
 					>Close
 					</button
 					>
 				</div>
 			</div>
-			<li class="nav-item active offcanvas-body-li">
-				<a class="nav-link text-white" href="#Home">Home </a>
-			</li>
+			<ul>
+				<li class="nav-item active offcanvas-body-li">
+					<a class="nav-link text-white" href="#Home">Home </a>
+				</li>
 
-			<li class="nav-item offcanvas-body-li">
-				<a class="nav-link text-white" href="#OurServices">Services</a>
-			</li>
-			<li class="nav-item offcanvas-body-li">
-				<a class="nav-link text-white" href="#AboutUs">About</a>
-			</li>
-			<li class="nav-item offcanvas-body-li">
-				<a class="nav-link text-white" href="#WhyUs">Why Us</a>
-			</li>
-			<li class="nav-item offcanvas-body-li">
-				<a class="nav-link text-white" href="#HowItWorks">How It Works</a>
-			</li>
-			<li class="nav-item offcanvas-body-li">
-				<a class="nav-link text-white" href="#HowItWorks">Our Technologies</a>
-			</li>
-			<li class="nav-item offcanvas-body-li">
-				<a class="nav-link text-white" href="#ContactUs">Contact Us</a>
-			</li>
+				<li class="nav-item offcanvas-body-li">
+					<a class="nav-link text-white" href="#OurServices">Services</a>
+				</li>
+				<li class="nav-item offcanvas-body-li">
+					<a class="nav-link text-white" href="#AboutUs">About</a>
+				</li>
+				<li class="nav-item offcanvas-body-li">
+					<a class="nav-link text-white" href="#WhyUs">Why Us</a>
+				</li>
+				<li class="nav-item offcanvas-body-li">
+					<a class="nav-link text-white" href="#HowItWorks">How It Works</a>
+				</li>
+				<li class="nav-item offcanvas-body-li">
+					<a class="nav-link text-white" href="#HowItWorks">Our Technologies</a>
+				</li>
+				<li class="nav-item offcanvas-body-li">
+					<a class="nav-link text-white" href="#ContactUs">Contact Us</a>
+				</li>
+			</ul>
 		</div>
 	</div>
 </div>
@@ -238,7 +241,7 @@
 	.custom_nav-container .navbar-nav .nav-item.active .nav-link {
 		color: white !important;
 	}
-	
+
 	.custom_nav-container .navbar-toggler {
 		outline: none;
 	}

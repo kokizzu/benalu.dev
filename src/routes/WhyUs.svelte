@@ -73,16 +73,11 @@ import GoButton from "../components/GoButton.svelte";
 		-ms-flex-align: center;
 		align-items: center;
 		text-align: center;
-		margin: 0 auto;
-		margin-top: 90px;
+		margin: 0 auto 0;
 		padding: 25px 25px 30px 25px;
 		-webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
 		box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
 		border-radius: 10px;
-	}
-
-	.why_section .box.b2 {
-		margin-top: 45px;
 	}
 
 	.why_section .box .detail-box h5 {

@@ -63,10 +63,6 @@
 
 <style>
 
-	.service_section .box.b2 {
-		margin-top: 45px;
-	}
-
 	.service_section .box .img-box {
 		width: 90px;
 		margin-bottom: 20px;

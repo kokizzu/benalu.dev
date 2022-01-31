@@ -28,9 +28,7 @@ import GoButton from "../components/GoButton.svelte";
 						alt="How it works"
 					/>
 					<div class="play_btn">
-						<button>
-							<i class="fa fa-play" aria-hidden="true"/>
-						</button>
+						<i class="fa fa-play" aria-hidden="true"></i>
 					</div>
 				</div>
 			</div>
