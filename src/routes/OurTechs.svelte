@@ -81,7 +81,7 @@
 				<div class="box">
 					<div class="detail-box mb-3 text-left">
 						<h5>RedPanda</h5>
-						<h6><a href="//vectorized.io">vectorized.io</a></h6>
+						<h6><a href="//redpanda.com">redpanda.com</a></h6>
 						<p>
 							RedPanda is one of the fastest PubSub/message-queue that are Kafka-compatible.
 						</p>
@@ -157,10 +157,65 @@
 			<div class="item col-sm-12 col-md-6 col-lg-3">
 				<div class="box">
 					<div class="detail-box mb-3 text-left">
+						<h5>Docker Compose</h5>
+						<h6><a href="//docs.docker.com/compose">docs.docker.com/compose</h6>
+						<p>
+							Tool to run multi-docker applications.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="item col-sm-12 col-md-6 col-lg-3">
+				<div class="box">
+					<div class="detail-box mb-3 text-left">
+						<h5>Traefik</h5>
+						<h6><a href="//traefik.io">traefik.io</h6>
+						<p>
+							Service discovery and reverse proxy.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="item col-sm-12 col-md-6 col-lg-3">
+				<div class="box">
+					<div class="detail-box mb-3 text-left">
 						<h5>Fabio LB</h5>
 						<h6><a href="//fabiolb.net">fabiolb.net</h6>
 						<p>
 							Stateless Automatic Load Balancer.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="item col-sm-12 col-md-6 col-lg-3">
+				<div class="box">
+					<div class="detail-box mb-3 text-left">
+						<h5>K3Sup</h5>
+						<h6><a href="//k3sup.dev">k3sup.dev</h6>
+						<p>
+							Kubernetes over SSH deploy tool.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="item col-sm-12 col-md-6 col-lg-3">
+				<div class="box">
+					<div class="detail-box mb-3 text-left">
+						<h5>Pulumi</h5>
+						<h6><a href="//pulumi.com">pulumi.com</h6>
+						<p>
+							Infrastructure as Code platform.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="item col-sm-12 col-md-6 col-lg-3">
+				<div class="box">
+					<div class="detail-box mb-3 text-left">
+						<h5>Multipass</h5>
+						<h6><a href="//multipass.run">multipass.run</h6>
+						<p>
+							Instant Ubuntu VM Launcher.
 						</p>
 					</div>
 				</div>
