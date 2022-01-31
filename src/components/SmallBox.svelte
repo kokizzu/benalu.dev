@@ -5,7 +5,7 @@
 <div class="item col-sm-12 col-md-6 col-lg-3">
 	<div class="box">
 		<div class="detail-box mb-3 text-left">
-			<h5>{title}</h5>
+			<p class="title">{title}</p>
 			<h6><a href="//{site}">{site}</h6>
 			<p>
 				<slot/>
@@ -32,7 +32,7 @@
 		border-radius: 16px;
 	}
 
-	.box .detail-box h5 {
+	.box .detail-box p.title {
 		font-weight: 600;
 	}
 
