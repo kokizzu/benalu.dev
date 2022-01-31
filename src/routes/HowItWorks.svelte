@@ -25,7 +25,7 @@
 				<div class="img-box">
 					<img
 						src="/how-it-works.svg"
-						style="height: 40% !important; width:70%; padding: 2em"
+						style="height: 60% !important; width:100%; padding: 2.5em"
 						alt="How it works"
 					/>
 					<div class="play_btn">
