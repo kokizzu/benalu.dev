@@ -1,5 +1,5 @@
 <script>
-import GoButton from "../components/GoButton.svelte";
+	import GoButton from "../components/GoButton.svelte";
 </script>
 
 <section id="WhyUs" class="why_section layout_padding">
@@ -12,7 +12,7 @@ import GoButton from "../components/GoButton.svelte";
 				<div class="col-md-4">
 					<div class="box b1">
 						<div class="detail-box">
-							<h5>Latest Best-Fit Technology</h5>
+							<p class="title">Latest Best-Fit Technology</p>
 							<p>
 								We choose best fitting tech-stack, that are perfect fit for your use case, unlike other
 								software house that using generalized tech-stack to solve everything. We do not conform
@@ -26,7 +26,7 @@ import GoButton from "../components/GoButton.svelte";
 				<div class="col-md-4">
 					<div class="box b2">
 						<div class="detail-box">
-							<h5>Flexible Pricing</h5>
+							<p class="title">Flexible Pricing</p>
 							<p>
 								You can hire us by man-hour, or lump-sump project-based. We only outsource the UI/UX and
 								Graphics Design when necessary (and it would be transparent), all other development and
@@ -41,7 +41,7 @@ import GoButton from "../components/GoButton.svelte";
 				<div class="col-md-4">
 					<div class="box b3">
 						<div class="detail-box">
-							<h5>Experienced Developers</h5>
+							<p class="title">Experienced Developers</p>
 							<p>
 								Our team consist of experienced developers with 4-13 years of experience in software
 								development and Information Technology, most projects we've done are in e-commerce,
@@ -54,14 +54,14 @@ import GoButton from "../components/GoButton.svelte";
 				</div>
 			</div>
 		</div>
-		<GoButton target="#HowItWorks" />
+		<GoButton target="#HowItWorks"/>
 	</div>
 </section>
 
 <style>
 
 
-	.why_section .box {
+	.box {
 		display: -webkit-box;
 		display: -ms-flexbox;
 		display: flex;
@@ -73,19 +73,25 @@ import GoButton from "../components/GoButton.svelte";
 		-ms-flex-align: center;
 		align-items: center;
 		text-align: center;
-		margin: 0 auto 0;
+		margin: 60px auto 0;
 		padding: 25px 25px 30px 25px;
 		-webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
 		box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
 		border-radius: 10px;
 	}
 
-	.why_section .box .detail-box h5 {
-		font-weight: 600;
-		color: #ff7241;
+	.b2 {
+		margin-top: 0;
 	}
 
-	.why_section .box .detail-box p {
+	.box .detail-box p.title {
+		font-weight: 600;
+		color: #ff7241;
+		font-size: 1.5em;
+		padding-bottom: 1em;
+	}
+
+	.box .detail-box p {
 		margin: 0;
 	}
 </style>

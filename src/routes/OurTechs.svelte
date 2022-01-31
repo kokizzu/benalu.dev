@@ -79,7 +79,7 @@
 			</SmallBox>
 		</div>
 	</div>
-	<GoButton target="#Home"> Back to Top </GoButton>
+	<GoButton target="#Home"> Back to Top</GoButton>
 </section>
 
 <style>

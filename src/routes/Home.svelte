@@ -1,5 +1,5 @@
 <script>
-import GoButton from "../components/GoButton.svelte";
+	import GoButton from "../components/GoButton.svelte";
 </script>
 
 <section id="Home" class="slider_section ">
@@ -14,16 +14,18 @@ import GoButton from "../components/GoButton.svelte";
 					<p class="text-white text-left">
 						Nalu means wave/surf in Hawaiian.
 					</p>
-					<GoButton target="#OurServices" />
+					<GoButton target="#OurServices"/>
 				</div>
 			</div>
 			<div class="col-md-6">
 				<div class="img-box-Header">
 					<img
-						src="/sub-1.svg"
-						title="New image"
+						src="/home.svg"
+						title="Team Image"
 						alt="Sub 1"
 						class="Slider-Image"
+						width="100%"
+						height="100%"
 					/>
 				</div>
 			</div>
@@ -72,6 +74,7 @@ import GoButton from "../components/GoButton.svelte";
 		color: #ffffff;
 		text-align: left !important;
 	}
+
 	.slider_section .img-box img {
 		width: 100%;
 	}

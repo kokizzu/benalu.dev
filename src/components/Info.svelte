@@ -1,5 +1,5 @@
 <script>
-import Flag from "./Flag.svelte";
+	import Flag from "./Flag.svelte";
 </script>
 
 <section class="info_section layout_padding2">
@@ -11,12 +11,12 @@ import Flag from "./Flag.svelte";
 					<p>
 						development team you can trust.
 					</p>
-					<Flag code="id" alt="Indonesia" />
-					<Flag code="us" alt="United States of America" />
-					<Flag code="jp" alt="Japan" />
-					<Flag code="sg" alt="Singapore" />
-					<Flag code="th" alt="Thailand" />
-					<Flag code="es" alt="Spain" />
+					<Flag code="id" alt="Indonesia"/>
+					<Flag code="us" alt="United States of America"/>
+					<Flag code="jp" alt="Japan"/>
+					<Flag code="sg" alt="Singapore"/>
+					<Flag code="th" alt="Thailand"/>
+					<Flag code="es" alt="Spain"/>
 					<!--          <div class="info_social">-->
 					<!--            <a href="#ReadMore">-->
 					<!--              <svg-->

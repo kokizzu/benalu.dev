@@ -11,11 +11,8 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="box b1">
-						<div class="img-box">
-							<!-- <img src="images/s1.png" alt="" class="" /> -->
-						</div>
 						<div class="detail-box">
-							<h5>System Requirement Analysis and Design</h5>
+							<p class="title">System Requirement Analysis and Design</p>
 							<p>
 								We can create you integrated information systems. Providing SRS: Software Requirement
 								Specifications (which role can which action) and SDS: Software Design Specifications
@@ -27,11 +24,8 @@
 				</div>
 				<div class="col-md-4">
 					<div class="box b2">
-						<div class="img-box">
-							<!-- <img src="images/s2.png" alt="" class="" /> -->
-						</div>
 						<div class="detail-box">
-							<h5>IT Infrastructure Setup</h5>
+							<p class="title">IT Infrastructure Setup</p>
 							<p>
 								We can design and implement fully documented architecture and infrastructure needed for
 								your business growth. We can set you up the infrastructure, automatic scaling strategy,
@@ -42,11 +36,8 @@
 				</div>
 				<div class="col-md-4">
 					<div class="box b3">
-						<div class="img-box">
-							<!-- <img src="images/s3.png" alt="" class="" /> -->
-						</div>
 						<div class="detail-box">
-							<h5>System Development</h5>
+							<p class="title">System Development</p>
 							<p>
 								For each SRS and SDS we can implement modular monolith or service-oriented microservices.
 								Using latest technology, with maintainable and tested code, you get the full source
@@ -57,23 +48,44 @@
 				</div>
 			</div>
 		</div>
-		<GoButton target="#AboutUs" />
+		<GoButton target="#AboutUs"/>
 	</div>
 </section>
 
 <style>
 
-	.service_section .box .img-box {
-		width: 90px;
-		margin-bottom: 20px;
+	.box {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+
+		-ms-flex-align: center;
+		align-items: center;
+		text-align: center;
+		margin: 60px auto 0;
+		padding: 25px 25px 30px 25px;
+		-webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+		box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+		border-radius: 10px;
 	}
 
-	.service_section .box .detail-box h5 {
+	.b2 {
+		margin-top: 20px;
+	}
+
+	.box .detail-box p.title {
 		font-weight: 600;
 		color: #ff7241;
+		font-size: 1.5em;
+		padding-bottom: 1em;
 	}
 
-	.service_section .box .detail-box p {
+	.box .detail-box p {
 		margin: 0;
 	}
 

@@ -1,5 +1,5 @@
 <script>
-import GoButton from "../components/GoButton.svelte";
+	import GoButton from "../components/GoButton.svelte";
 </script>
 
 <section id="AboutUs" class="about_section">
@@ -8,8 +8,10 @@ import GoButton from "../components/GoButton.svelte";
 			<div class="col-md-6 ">
 				<div class="img-box">
 					<img
-						src="/resources2.svg"
+						src="/about-us.svg"
 						alt="About Us"
+						width="100%"
+						height="100%"
 					/>
 				</div>
 			</div>
@@ -33,7 +35,7 @@ import GoButton from "../components/GoButton.svelte";
 						</li>
 						<li><a class="x" href="//linkedin.com/in/dikaimin-simon/">Dikaimin</a></li>
 					</ul>
-					<GoButton target="#WhyUs" />
+					<GoButton target="#WhyUs"/>
 				</div>
 			</div>
 		</div>
@@ -52,4 +54,18 @@ import GoButton from "../components/GoButton.svelte";
 		background: black;
 	}
 
+
+	.row {
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+	}
+
+	.img-box {
+		position: relative;
+	}
+
+	.img-box img {
+		width: 100%;
+	}
 </style>

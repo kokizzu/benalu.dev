@@ -20,14 +20,14 @@
 				>
 					<!-- https://blogger.googleusercontent.com/img/a/AVvXsEi-JWOvGCAdYsg0KcLYS5CNEfcD79S9vZVWRVDnEvdxU9Tr92Ki5Br-y6vQbpfxGahewNkPTS47EXlPkv7inyfTMXStSrrU_on-rnsCd-hAUr3XdyopommFUvaTpYFj33qtA2WsOyb8u9cflCBAoOHBSYfIIXVZeeQwmmAMAeQ1FmKMopvQemaJfNiEXA=s1200 -->
 					<img width="80" height="80"
-						src="/benalu.dev.png"
-						alt="User"
-						class="LogoImage "
+						  src="/benalu.dev.png"
+						  alt="User"
+						  class="LogoImage "
 					/>
 					<b class="ms-2">BeNalu Dev</b>
 				</a>
 
-				<button class="navbar-toggler" alt="menu" type="button" on:click={openNav}>
+				<button class="navbar-toggler" aria-label="menu" type="button" on:click={openNav}>
 					<span class=""/>
 				</button>
 
@@ -76,7 +76,7 @@
 		<div class="offcanvas-body">
 			<div class="w-100 d-flex">
 				<div class="flex-fill justify-content-end">
-					<button on:click={closeNav} alt='menu' class="closeNavbar float-end"
+					<button on:click={closeNav} aria-label='menu' class="closeNavbar float-end"
 					>Close
 					</button
 					>
