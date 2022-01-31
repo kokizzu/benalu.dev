@@ -115,6 +115,9 @@ a:focus {
 main.svelte-1h6otfa {
   text-align: left !important;
 }
+.section-title {
+  padding-top: 2em;
+}
 .section-title::after {
   height: 5px;
   display: block;

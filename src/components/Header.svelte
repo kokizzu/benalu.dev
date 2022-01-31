@@ -135,6 +135,8 @@
 		border: 0px;
 		background: #ff7241;
 		color: white;
+		font-weight: bold;
+		font-size: 110%;
 	}
 
 	.HeaderPosition {
@@ -175,6 +177,7 @@
 
 	li.nav-item, a.nav-link {
 		border-radius: 16px;
+		font-weight: bold;
 	}
 
 	.LogoImage {

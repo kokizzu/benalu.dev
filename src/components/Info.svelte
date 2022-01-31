@@ -15,6 +15,7 @@
 					<img src="https://hatscripts.github.io/circle-flags/flags/jp.svg" width="32" alt="Japan">
 					<img src="https://hatscripts.github.io/circle-flags/flags/sg.svg" width="32" alt="Singapore">
 					<img src="https://hatscripts.github.io/circle-flags/flags/th.svg" width="32" alt="Thailand">
+					<img src="https://hatscripts.github.io/circle-flags/flags/es.svg" width="32" alt="Spain">
 					<!--          <div class="info_social">-->
 					<!--            <a href="#ReadMore">-->
 					<!--              <svg-->

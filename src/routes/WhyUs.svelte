@@ -1,4 +1,6 @@
-<script></script>
+<script>
+import GoButton from "../components/GoButton.svelte";
+</script>
 
 <section id="WhyUs" class="why_section layout_padding">
 	<div class="container">
@@ -52,9 +54,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="btn-box">
-			<a href="#HowItWorks"> Read More </a>
-		</div>
+		<GoButton target="#HowItWorks" />
 	</div>
 </section>
 

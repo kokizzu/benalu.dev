@@ -1,4 +1,7 @@
-<script></script>
+<script>
+	import SmallBox from "../components/SmallBox.svelte";
+	import GoButton from "../components/GoButton.svelte";
+</script>
 
 <section id="OurTechs" class="client_section layout_padding my-4">
 	<div class="container">
@@ -6,324 +9,82 @@
 			<h2 class="section-title">Our Technologies</h2>
 		</div>
 		<div class="row">
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Svelte</h5>
-						<h6><a href="//svelte.dev">svelte.dev</h6>
-						<p>
-							Svelte is programming language for building frontends use-case, productive version of the
-							popular one: React, Vue, or Angular.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class=" item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Clickhouse</h5>
-						<h6><a href="//clickhouse.com">clickhouse.com</a></h6>
-						<p>
-							Clickhouse is one of the fastest OLAP database in the world, it could achieve 1 million
-							inserts per second, and sub-second complex queries.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box ">
-					<div class="detail-box mb-3 text-left">
-						<h5>Tarantool</h5>
-						<h6><a href="//tarantool.io">tarantool.io</a></h6>
-						<p>
-							Tarantool is one of the fastest in-memory OLTP database that support SQL, it could achieve
-							200K TPS on single core.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Centrifugo</h5>
-						<h6><a href="//centrifugal.dev">centrifugal.dev</h6>
-						<p>
-							Centrifugo is one of the simples pub-sub realtime messaging server, useful for notification
-							fan-out.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Jelastic</h5>
-						<h6><a href="//jelastic.cloud">jelastic.cloud</h6>
-						<p>
-							Jelastic is super flexible PaaS: platform as a service and IaaS: infrastructure as a service
-							provider.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Golang</h5>
-						<h6><a href="//go.dev">go.dev</h6>
-						<p>
-							Golang is one of the most productive programming language for backend use-case.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>RedPanda</h5>
-						<h6><a href="//redpanda.com">redpanda.com</a></h6>
-						<p>
-							RedPanda is one of the fastest PubSub/message-queue that are Kafka-compatible.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Materialize IO</h5>
-						<h6><a href="//materialize.com">materialize.com</h6>
-						<p>
-							Materialize is one of the fastest streaming database for realtime analytics use-case.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>TypeSense</h5>
-						<h6><a href="//typesense.org">typesense.org</h6>
-						<p>
-							TypeSense is typo-tolerant search engine, comparable to ElasticSearch.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>TiDB</h5>
-						<h6><a href="//en.pingcap.com">en.pingcap.com</h6>
-						<p>
-							TiDB is one of the auto-healing database that compatible with MySQL.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Unity 3D</h5>
-						<h6><a href="//unity3d.com">unity3d.com</h6>
-						<p>
-							Unity3D is most popular game engine that uses C#.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>MailU</h5>
-						<h6><a href="//mailu.io">mailu.io</h6>
-						<p>
-							MailU is one of the fully-featured mail server.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Cloudflare Pages</h5>
-						<h6><a href="//pages.cloudflare.com">pages.cloudflare.com</h6>
-						<p>
-							Static site CDN and deployment platform.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Docker Compose</h5>
-						<h6><a href="//docs.docker.com/compose">docs.docker.com/compose</h6>
-						<p>
-							Tool to run multi-docker applications.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Traefik</h5>
-						<h6><a href="//traefik.io">traefik.io</h6>
-						<p>
-							Service discovery and reverse proxy.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Fabio LB</h5>
-						<h6><a href="//fabiolb.net">fabiolb.net</h6>
-						<p>
-							Stateless Automatic Load Balancer.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>K3Sup</h5>
-						<h6><a href="//k3sup.dev">k3sup.dev</h6>
-						<p>
-							Kubernetes over SSH deploy tool.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Pulumi</h5>
-						<h6><a href="//pulumi.com">pulumi.com</h6>
-						<p>
-							Infrastructure as Code platform.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Multipass</h5>
-						<h6><a href="//multipass.run">multipass.run</h6>
-						<p>
-							Instant Ubuntu VM Launcher.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Nomad</h5>
-						<h6><a href="//nomadproject.io">nomadproject.io</h6>
-						<p>
-							Workload orchestrator.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="item col-sm-12 col-md-6 col-lg-3">
-				<div class="box">
-					<div class="detail-box mb-3 text-left">
-						<h5>Consul</h5>
-						<h6><a href="//consul.io">consul.io</h6>
-						<p>
-							Service discovery.
-						</p>
-					</div>
-				</div>
-			</div>
+			<SmallBox title="Svelte" site="svelte.dev">
+				Svelte is programming language for building frontends use-case, productive version of the popular one:
+				React, Vue, or Angular.
+			</SmallBox>
+			<SmallBox title="Clickhouse" site="clickhouse.com">
+				Clickhouse is one of the fastest OLAP database in the world, it could achieve 1 million
+				inserts per second, and sub-second complex queries.
+			</SmallBox>
+			<SmallBox title="Tarantool" site="tarantool.io">
+				Tarantool is one of the fastest in-memory OLTP database that support SQL, it could achieve
+				200K TPS on single core.
+			</SmallBox>
+			<SmallBox title="Centrifugo " site="centrifugal.dev">
+				Centrifugo is one of the simples pub-sub realtime messaging server, useful for notification
+				fan-out.
+			</SmallBox>
+			<SmallBox title="Jelastic " site="jelastic.cloud">
+				Jelastic is super flexible PaaS: platform as a service and IaaS: infrastructure as a service
+				provider.
+			</SmallBox>
+			<SmallBox title="Golang " site="go.dev">
+				Golang is one of the most productive programming language for backend use-case.
+			</SmallBox>
+			<SmallBox title="RedPanda " site="redpanda.com">
+				RedPanda is one of the fastest PubSub/message-queue that are Kafka-compatible.
+			</SmallBox>
+			<SmallBox title="Materialize IO " site="materialize.com">
+				Materialize is one of the fastest streaming database for realtime analytics use-case.
+			</SmallBox>
+			<SmallBox title="TypeSense " site="typesense.org">
+				TypeSense is typo-tolerant search engine, comparable to ElasticSearch.
+			</SmallBox>
+			<SmallBox title="TiDB " site="en.pingcap.com">
+				TiDB is one of the auto-healing database that compatible with MySQL.
+			</SmallBox>
+			<SmallBox title="Unity 3D " site="unity3d.com">
+				Unity3D is most popular game engine that uses C#.
+			</SmallBox>
+			<SmallBox title="MailU " site="mailu.io">
+				MailU is one of the fully-featured mail server.
+			</SmallBox>
+			<SmallBox title="Cloudflare Pages " site="pages.cloudflare.com">
+				Static site CDN and deployment platform.
+			</SmallBox>
+			<SmallBox title="Docker Compose " site="docs.docker.com/compose">
+				Tool to run multi-docker applications.
+			</SmallBox>
+			<SmallBox title="Traefik " site="traefik.io">
+				Service discovery and reverse proxy.
+			</SmallBox>
+			<SmallBox title="Fabio LB " site="fabiolb.net">
+				Stateless Automatic Load Balancer.
+			</SmallBox>
+			<SmallBox title="K3Sup " site="k3sup.dev">
+				Kubernetes over SSH deploy tool.
+			</SmallBox>
+			<SmallBox title="Pulumi " site="pulumi.com">
+				Infrastructure as Code platform.
+			</SmallBox>
+			<SmallBox title="Multipass " site="multipass.run">
+				Instant Ubuntu VM Launcher.
+			</SmallBox>
+			<SmallBox title="Nomad " site="nomadproject.io">
+				Workload orchestrator.
+			</SmallBox>
+			<SmallBox title="Consul " site="consul.io">
+				Service discovery.
+			</SmallBox>
 		</div>
 	</div>
-	<div class="btn-box">
-		<a href="#Home"> Back to Top </a>
-	</div>
+	<GoButton target="#Home"> Back to Top </GoButton>
 </section>
 
 <style>
-
-	.client_section .client_container {
-		margin-top: 45px;
-	}
-
-	.client_section .box {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-	}
-
-	.client_section .box .img-box {
-		position: relative;
-		min-width: 105px;
-		width: 105px;
-	}
-
-	.client_section .box .img-box img {
-		width: 100%;
-		border-radius: 100%;
-		border: 5px solid #ffffff;
-	}
-
-	.client_section .box .detail-box {
-		position: relative;
-		background-color: #344d77;
-		color: #ffffff;
-		border: 1px solid #dddddd;
-		padding: 25px;
-		margin-left: 30px;
-		border-radius: 16px;
-	}
-
-	.client_section .box .detail-box h5 {
-		font-weight: 600;
-	}
-
-	.client_section .box .detail-box p {
-		margin: 0;
-	}
-
-	.client_section .box .detail-box::before {
-		content: "";
-		background-color: #ff7241;
-		width: 25px;
-		height: 25px;
-		position: absolute;
-		top: 4px;
-		left: -12px;
-		-webkit-transform: rotate(45deg);
-		transform: rotate(45deg);
-	}
-
-	.client_section .carousel-wrap {
-		margin: 0 auto;
-		position: relative;
-	}
-
-	.client_section .owl-carousel .owl-nav .owl-prev,
-	.client_section .owl-carousel .owl-nav .owl-next {
-		width: 50px;
-		height: 50px;
-		background-size: 18px;
-		background-position: center;
-		background-repeat: no-repeat;
-		margin: 45px 10px 0 0;
-		outline: none;
-		background-color: #ff7241;
-		color: #ffffff;
-	}
-
-	.client_section .owl-carousel .owl-nav .owl-prev:hover,
-	.client_section .owl-carousel .owl-nav .owl-next:hover {
-		background-color: #161825;
+	.row {
+		margin-top: 1.5em;
 	}
 
 	a {

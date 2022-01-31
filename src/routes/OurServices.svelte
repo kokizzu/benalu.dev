@@ -1,3 +1,7 @@
+<script>
+	import GoButton from "../components/GoButton.svelte";
+</script>
+
 /<section id="OurServices" class="service_section layout_padding">
 	<div class="container">
 		<div class="heading_container heading_center">
@@ -53,9 +57,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="btn-box">
-			<a href="#AboutUs"> Read More </a>
-		</div>
+		<GoButton target="#AboutUs" />
 	</div>
 </section>
 

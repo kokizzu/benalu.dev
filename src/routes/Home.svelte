@@ -1,4 +1,6 @@
-<script></script>
+<script>
+import GoButton from "../components/GoButton.svelte";
+</script>
 
 <section id="Home" class="slider_section ">
 	<div class="container ">
@@ -12,9 +14,7 @@
 					<p class="text-white text-left">
 						Nalu means wave/surf in Hawaiian.
 					</p>
-					<div class="btn-box text-left">
-						<a href="#OurServices" class="btn1"> Read More </a>
-					</div>
+					<GoButton target="#OurServices" />
 				</div>
 			</div>
 			<div class="col-md-6">
@@ -97,27 +97,4 @@
 		width: 100%;
 	}
 
-	.slider_section .carousel_btn_box {
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		margin-bottom: 30px;
-		position: absolute;
-		bottom: 0;
-	}
-
-	.slider_section .carousel-control-prev,
-	.slider_section .carousel-control-next {
-		position: unset;
-		width: 45px;
-		height: 45px;
-		background-size: 18px;
-		background-position: center;
-		background-repeat: no-repeat;
-		outline: none;
-		margin-right: 10px;
-		background-color: #f9fafb;
-		color: #344d77;
-		opacity: 1;
-	}
 </style>

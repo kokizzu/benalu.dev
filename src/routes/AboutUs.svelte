@@ -1,4 +1,5 @@
 <script>
+import GoButton from "../components/GoButton.svelte";
 </script>
 
 <section id="AboutUs" class="about_section">
@@ -32,7 +33,7 @@
 						</li>
 						<li><a class="x" href="//linkedin.com/in/dikaimin-simon/">Dikaimin</a></li>
 					</ul>
-					<a href="#WhyUs"> Read More </a>
+					<GoButton target="#WhyUs" />
 				</div>
 			</div>
 		</div>

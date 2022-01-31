@@ -1,4 +1,6 @@
-<script></script>
+<script>
+import GoButton from "../components/GoButton.svelte";
+</script>
 
 <section id="HowItWorks" class="about_section">
 	<div class="container  my-5">
@@ -15,14 +17,14 @@
 					<p class="text-left">
 						We are currently developing our in-house analytics, logging, monitoring, and payment platform.
 					</p>
-					<a href="#OurTechs" class="pb-3 text-left"> Read More </a>
+					<GoButton target="#OurTechs" />
 				</div>
 			</div>
 			<div class="col-md-6 ">
 				<div class="img-box">
 					<img
 						src="https://tutorbees.net/assets/subjects/Intro%20Web%20Programming-0d06d8a22f127effbb09695bb483b66275be102f86f144504e54aa187c891497.svg"
-						style="height: 60% !important; width:100%;"
+						style="height: 40% !important; width:70%; padding: 2em"
 						alt="How it works"
 					/>
 					<div class="play_btn">
