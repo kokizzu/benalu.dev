@@ -8,7 +8,7 @@ import GoButton from "../components/GoButton.svelte";
 			<div class="col-md-6 ">
 				<div class="img-box">
 					<img
-						src="https://tutorbees.net/assets/new_ui/resources2.svg"
+						src="/resources2.svg"
 						alt="About Us"
 					/>
 				</div>
