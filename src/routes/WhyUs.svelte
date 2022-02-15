@@ -28,7 +28,7 @@
 						<div class="detail-box">
 							<p class="title">Flexible Pricing</p>
 							<p>
-								You can hire us by man-hour, or lump-sump project-based. We only outsource the UI/UX and
+								You can hire us by man-hour, or lump-sum project-based. We only outsource the UI/UX and
 								Graphics Design when necessary (and it would be transparent), all other development and
 								architecture all will be fully implemented by our internal team (we are so proud on our
 								own code quality, so we won't trust it to other party). We also provide training for

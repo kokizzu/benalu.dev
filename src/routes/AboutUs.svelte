@@ -26,11 +26,14 @@
 						unicorns, and universities in Indonesia, United States, Japan, Singapore, Thailand, and Spain.
 					</p>
 					<ul>
-						<li><a class="x" href="//linkedin.com/in/kokizzu/">Kiswono</a> | <a class="x"
-																												  href="//github.com/kokizzu">GitHub</a>
+						<li><a class="x" href="//linkedin.com/in/kokizzu/">Kiswono</a>
+							| <a class="x" href="//github.com/kokizzu">GitHub</a> 
+							| <a class="x" href="//kokizzu.blogspot.com">Tech Blog</a>
 						</li>
-						<li><a class="x" href="//linkedin.com/in/rizalgowandy/">Rizal</a> | <a
-							class="x" href="//github.com/rizalgowandy">GitHub</a></li>
+						<li><a class="x" href="//linkedin.com/in/rizalgowandy/">Rizal</a> 
+							| <a class="x" href="//github.com/rizalgowandy">GitHub</a>
+							| <a class="x" href="//rizalgowandy.medium.com">Tech Blog</a>
+						</li>
 						<li><a class="x" href="//linkedin.com/in/vincentius-michael-49b39182/">Michael</a>
 						</li>
 						<li><a class="x" href="//linkedin.com/in/dikaimin-simon/">Dikaimin</a></li>
