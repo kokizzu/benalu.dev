@@ -23,7 +23,7 @@
 					<p class="text-left">
 						We are a team of multi-cultured experienced developers and researchers that works for various
 						startups,
-						unicorns, and universities in Indonesia, United States, Japan, Singapore, and Thailand.
+						unicorns, and universities in Indonesia, United States, Japan, Singapore, Thailand, and Spain.
 					</p>
 					<ul>
 						<li><a class="x" href="//linkedin.com/in/kokizzu/">Kiswono</a> | <a class="x"
