@@ -62,6 +62,9 @@
 			<SmallBox title="Fabio LB " site="fabiolb.net">
 				Stateless Automatic Load Balancer.
 			</SmallBox>
+			<SmallBox title="MiniKube " site="minikube.sigs.k8s.io">
+				Local Kubernetes for development.
+			</SmallBox>
 			<SmallBox title="K3Sup " site="k3sup.dev">
 				Kubernetes over SSH deploy tool.
 			</SmallBox>
