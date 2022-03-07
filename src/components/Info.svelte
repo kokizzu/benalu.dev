@@ -17,6 +17,7 @@
 					<Flag code="sg" alt="Singapore"/>
 					<Flag code="th" alt="Thailand"/>
 					<Flag code="es" alt="Spain"/>
+					<Flag code="it" alt="Italy"/>
 					<!--          <div class="info_social">-->
 					<!--            <a href="#ReadMore">-->
 					<!--              <svg-->
