@@ -84,7 +84,7 @@
 						<div id="googleMap" style="margin:0 auto">
 							<iframe
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15771.632804497742!2d115.16379253331382!3d-8.794694848937166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd244a5742f9609%3A0xb64f9e3fb868978!2zOMKwNDgnMTIuNSJTIDExNcKwMTAnNDcuMyJF!5e0!3m2!1sen!2sid!4v1647093544223!5m2!1sen!2sid"
-								width="100%" height="240" style="border:0;" allowfullscreen="" title="location"
+								width="100%" height="240" style="border:0;" allowfullscreen="" title="GPS coordinate: -8.803461, 115.179797"
 								loading="lazy"></iframe>
 						</div>
 					</div>
