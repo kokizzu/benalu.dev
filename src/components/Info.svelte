@@ -9,7 +9,7 @@
 				<div class="info_detail">
 					<h4>BeNalu.dev</h4>
 					<p>
-						development team you can trust.
+						software development team you can trust.
 					</p>
 					<Flag code="id" alt="Indonesia"/>
 					<Flag code="us" alt="United States of America"/>
@@ -79,24 +79,34 @@
 				</div>
 			</div>
 			<div class="col-md-4 col-lg-6  info-col">
-				<!--        <div class="map_container">-->
-				<!--          <div class="map">-->
-				<!--            <div id="googleMap" />-->
-				<!--          </div>-->
-				<!--        </div>-->
+				<div class="map_container">
+					<div class="map">
+						<div id="googleMap" style="margin:0 auto">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15771.632804497742!2d115.16379253331382!3d-8.794694848937166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd244a5742f9609%3A0xb64f9e3fb868978!2zOMKwNDgnMTIuNSJTIDExNcKwMTAnNDcuMyJF!5e0!3m2!1sen!2sid!4v1647093544223!5m2!1sen!2sid"
+								width="100%" height="240" style="border:0;" allowfullscreen="" title="location"
+								loading="lazy"></iframe>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="col-md-4 col-lg-3 info-col">
 				<div class="info_contact">
 					<h4>Contact Info</h4>
 					<div class="contact_link_box">
-						<!--            <a href="">-->
-						<!--              <i class="fa fa-phone" aria-hidden="true" />-->
-						<!--              <span> Call +62-85156365353 </span>-->
-						<!--            </a>-->
+						<p style="color: white"></p>
+						CV. Bersyukur Nalar Luas
+<!--						<a>-->
+<!--							<i class="fa fa-phone" aria-hidden="true"/>-->
+<!--							<span> Call +62-85156365353 </span>-->
+<!--						</a>-->
 						<p>
 							<i class="fa fa-envelope" aria-hidden="true"/>
 							<a class="x" href="mailto:admin@benalu.dev">admin@benalu.dev</a>
 							<br/>
+						</p>
+						<p style="color: white">
+							Jalan Perdana Griya, Jimbaran, Kec. Kuta Selatan, Kab. Badung, 80361
 						</p>
 						<p style="color: white">
 							<i class="fa fa-map-marker" aria-hidden="true"/>
