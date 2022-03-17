@@ -10,33 +10,31 @@
 		</div>
 		<div class="row">
 			<SmallBox title="Svelte" site="svelte.dev">
-				Svelte is programming language for building frontends use-case, productive version of the popular one:
-				React, Vue, or Angular.
+				Svelte is programming language for building frontends use-case, productive version of the popular one: React, Vue, or Angular.
 			</SmallBox>
 			<SmallBox title="Clickhouse" site="clickhouse.com">
-				Clickhouse is one of the fastest OLAP database in the world, it could achieve 1 million
-				inserts per second, and sub-second complex queries.
+				Clickhouse is one of the fastest OLAP database in the world, it could achieve 1 million inserts per second, and sub-second complex queries.
 			</SmallBox>
 			<SmallBox title="Tarantool" site="tarantool.io">
-				Tarantool is one of the fastest in-memory OLTP database that support SQL, it could achieve
-				200K TPS on single core.
-			</SmallBox>
-			<SmallBox title="Centrifugo " site="centrifugal.dev">
-				Centrifugo is one of the simples pub-sub realtime messaging server, useful for notification
-				fan-out.
+				Tarantool is one of the fastest in-memory OLTP database that support SQL, it could achieve 200K TPS on single core.
 			</SmallBox>
 			<SmallBox title="Jelastic " site="jelastic.cloud">
-				Jelastic is super flexible PaaS: platform as a service and IaaS: infrastructure as a service
-				provider.
+				Jelastic is super flexible PaaS: platform as a service and IaaS: infrastructure as a service provider.
+			</SmallBox>
+			<SmallBox title="Centrifugo " site="centrifugal.dev">
+				Centrifugo is one of the simples pub-sub realtime messaging server, useful for notification fan-out.
+			</SmallBox>
+			<SmallBox title="ScyllaDB " site="scylladb.com">
+				ScyllaDB is the database for data-intensive apps that require high performance and low latency.
+			</SmallBox>
+			<SmallBox title="Materialize IO " site="materialize.com">
+				Materialize is one of the fastest streaming database for realtime analytics use-case.
 			</SmallBox>
 			<SmallBox title="Golang " site="go.dev">
 				Golang is one of the most productive programming language for backend use-case.
 			</SmallBox>
 			<SmallBox title="RedPanda " site="redpanda.com">
 				RedPanda is one of the fastest PubSub/message-queue that are Kafka-compatible.
-			</SmallBox>
-			<SmallBox title="Materialize IO " site="materialize.com">
-				Materialize is one of the fastest streaming database for realtime analytics use-case.
 			</SmallBox>
 			<SmallBox title="TypeSense " site="typesense.org">
 				TypeSense is typo-tolerant search engine, comparable to ElasticSearch.
