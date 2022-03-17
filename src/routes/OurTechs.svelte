@@ -45,6 +45,9 @@
 			<SmallBox title="TiDB " site="en.pingcap.com">
 				TiDB is one of the auto-healing database that compatible with MySQL.
 			</SmallBox>
+			<SmallBox title="MinIO " site="min.io">
+				MinIO is high-performance, S3 compatible object storage.
+			</SmallBox>
 			<SmallBox title="Unity 3D " site="unity3d.com">
 				Unity3D is most popular game engine that uses C#.
 			</SmallBox>
