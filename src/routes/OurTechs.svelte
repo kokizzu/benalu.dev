@@ -84,6 +84,9 @@
 			<SmallBox title="Pulumi" site="pulumi.com">
 				Infrastructure as Code platform.
 			</SmallBox>
+			<SmallBox title="NATS" site="nats.io">
+				Message-oriented middleware.
+			</SmallBox>
 			<SmallBox title="Multipass" site="multipass.run">
 				Instant Ubuntu VM Launcher.
 			</SmallBox>
