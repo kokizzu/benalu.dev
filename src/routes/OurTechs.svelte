@@ -45,11 +45,11 @@
 			<SmallBox title="TiDB" site="en.pingcap.com">
 				TiDB is one of the auto-healing database that compatible with MySQL.
 			</SmallBox>
+			<SmallBox title="Godot" site="unity3d.com">
+				Godot is rising popularity game engine that uses GDScript.
+			</SmallBox>
 			<SmallBox title="MinIO" site="min.io">
 				MinIO is high-performance, S3 compatible object storage.
-			</SmallBox>
-			<SmallBox title="Unity 3D" site="unity3d.com">
-				Unity3D is most popular game engine that uses C#.
 			</SmallBox>
 			<SmallBox title="MailU" site="mailu.io">
 				MailU is one of the fully-featured mail server.
@@ -63,35 +63,14 @@
 			<SmallBox title="Docker Compose" site="docs.docker.com/compose">
 				Tool to run multi-docker applications.
 			</SmallBox>
-			<SmallBox title="Traefik" site="traefik.io">
-				Service discovery and reverse proxy.
-			</SmallBox>
-			<SmallBox title="Tilt" site="tilt.dev">
-				Toolkit for smart rebuild kubernetes.
-			</SmallBox>
 			<SmallBox title="Fabio LB" site="fabiolb.net">
 				Stateless Automatic Load Balancer.
-			</SmallBox>
-			<SmallBox title="MiniKube" site="minikube.sigs.k8s.io">
-				Local Kubernetes for development.
-			</SmallBox>
-			<SmallBox title="K3Sup" site="k3sup.dev">
-				Kubernetes over SSH deploy tool.
-			</SmallBox>
-			<SmallBox title="Ansible" site="ansible.com">
-				Server configuration and automation.
-			</SmallBox>
-			<SmallBox title="Pulumi" site="pulumi.com">
-				Infrastructure as Code platform.
 			</SmallBox>
 			<SmallBox title="NATS" site="nats.io">
 				Message-oriented middleware.
 			</SmallBox>
 			<SmallBox title="Multipass" site="multipass.run">
 				Instant Ubuntu VM Launcher.
-			</SmallBox>
-			<SmallBox title="Nomad" site="nomadproject.io">
-				Workload orchestrator.
 			</SmallBox>
 			<SmallBox title="Consul" site="consul.io">
 				Service discovery.
