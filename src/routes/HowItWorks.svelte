@@ -16,7 +16,7 @@
 						you want us to solve, and we can create the timeline and our breakdown estimate.
 					</p>
 					<p class="text-left">
-						We are currently developing our in-house analytics, logging, monitoring, and payment platform.
+						We are currently developing in our free time our own in-house game, voting system, analytics, logging, monitoring, deployment, data sync/migration/transformation, and payment platform.
 					</p>
 					<GoButton target="#OurTechs"/>
 				</div>
