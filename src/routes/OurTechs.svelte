@@ -63,6 +63,9 @@
 			<SmallBox title="Docker Compose" site="docs.docker.com/compose">
 				Tool to run multi-docker applications.
 			</SmallBox>
+			<SmallBox title="Nomad" site="nomadproject.io">
+				Kubernetes alternative without bloat.
+			</SmallBox>
 			<SmallBox title="Fabio LB" site="fabiolb.net">
 				Stateless Automatic Load Balancer.
 			</SmallBox>
