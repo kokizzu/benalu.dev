@@ -18,6 +18,7 @@
 					<Flag code="th" alt="Thailand"/>
 					<Flag code="es" alt="Spain"/>
 					<Flag code="lu" alt="Luxembourg"/>
+					<Flag code="tw" alt="Taiwan"/>
 					<!--          <div class="info_social">-->
 					<!--            <a href="#ReadMore">-->
 					<!--              <svg-->
