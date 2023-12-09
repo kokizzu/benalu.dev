@@ -10,13 +10,16 @@
 		</div>
 		<div class="row">
 			<SmallBox title="Svelte" site="svelte.dev">
-				Svelte is programming language for building frontends use-case, productive version of the popular one: React, Vue, or Angular.
+				Svelte is programming language for building frontends use-case, productive version of the popular one:
+				React, Vue, or Angular.
 			</SmallBox>
 			<SmallBox title="Clickhouse" site="clickhouse.com">
-				Clickhouse is one of the fastest OLAP database in the world, it could achieve 1 million inserts per second, and sub-second complex queries.
+				Clickhouse is one of the fastest OLAP database in the world, it could achieve 1 million inserts per second,
+				and sub-second complex queries.
 			</SmallBox>
 			<SmallBox title="Tarantool" site="tarantool.io">
-				Tarantool is one of the fastest in-memory OLTP database that support SQL, it could achieve 200K TPS on single core.
+				Tarantool is one of the fastest in-memory OLTP database that support SQL, it could achieve 200K TPS on
+				single core.
 			</SmallBox>
 			<SmallBox title="Jelastic" site="jelastic.cloud">
 				Jelastic is super flexible PaaS: platform as a service and IaaS: infrastructure as a service provider.
@@ -31,23 +34,26 @@
 				Materialize is one of the fastest streaming database for realtime analytics use-case.
 			</SmallBox>
 			<SmallBox title="Aerospike" site="aerospike.com">
-				Aerospike is a flash memory and in-memory open source distributed key-value NoSQL 
+				Aerospike is a flash memory and in-memory open source distributed key-value NoSQL
 			</SmallBox>
 			<SmallBox title="Golang" site="go.dev">
 				Golang is one of the most productive programming language for backend use-case.
 			</SmallBox>
-			<SmallBox title="RedPanda" site="redpanda.com">
-				RedPanda is one of the fastest PubSub/message-queue that are Kafka-compatible.
+			<SmallBox title="Docker MailServer" site="docker-mailserver.github.io/docker-mailserver/latest/">
+				Docker MailServer is easy to setup mail server.
 			</SmallBox>
+			<!--			<SmallBox title="RedPanda" site="redpanda.com">-->
+			<!--				RedPanda is one of the fastest PubSub/message-queue that are Kafka-compatible.-->
+			<!--			</SmallBox>-->
 			<SmallBox title="TypeSense" site="typesense.org">
 				TypeSense is typo-tolerant search engine, comparable to ElasticSearch.
 			</SmallBox>
 			<SmallBox title="TiDB" site="en.pingcap.com">
 				TiDB is one of the auto-healing database that compatible with MySQL.
 			</SmallBox>
-			<SmallBox title="Godot" site="unity3d.com">
-				Godot is rising popularity game engine that uses GDScript.
-			</SmallBox>
+			<!--			<SmallBox title="Godot" site="unity3d.com">-->
+			<!--				Godot is rising popularity game engine that uses GDScript.-->
+			<!--			</SmallBox>-->
 			<SmallBox title="MinIO" site="min.io">
 				MinIO is high-performance, S3 compatible object storage.
 			</SmallBox>
