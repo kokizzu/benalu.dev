@@ -47,6 +47,39 @@
 					</div>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="box b4">
+						<div class="detail-box">
+							<p class="title">Crowdfunding for Accommodation Development</p>
+							<p>
+								We are currently doing crowdfunding for investors that want to join our collective movement to provide excellent housing for people in Bali.
+								To know more visit this link: <a href="https://bit.ly/balidev1" target="_blank">https://bit.ly/balidev1</a>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box b4">
+						<div class="detail-box">
+							<p class="title">General IT Consultation</p>
+							<p>
+								We can provide you with general IT consultation, researching modern and best technology that you can apply for your company.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="box b4">
+						<div class="detail-box">
+							<p class="title">IT Training</p>
+							<p>
+								We can provide you with general IT training (online), or onsite in Bali, related to latest software development strategy, general programming, and IT infrastructure.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<GoButton target="#AboutUs"/>
 	</div>
