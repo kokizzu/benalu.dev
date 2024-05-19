@@ -107,7 +107,7 @@
 							<br/>
 						</p>
 						<p style="color: white">
-							Jalan Perdana Griya, Jimbaran, Kec. Kuta Selatan, Kab. Badung, 80361
+							Jalan Watu Ngongkong (lewat Nuansa Kori), Jimbaran, Kec. Kuta Selatan, Kab. Badung, 80361
 						</p>
 						<p style="color: white">
 							<i class="fa fa-map-marker" aria-hidden="true"/>
