@@ -19,6 +19,8 @@
 					<Flag code="es" alt="Spain"/>
 					<Flag code="lu" alt="Luxembourg"/>
 					<Flag code="tw" alt="Taiwan"/>
+					<Flag code="my" alt="Malaysia"/>
+					<Flag code="in" alt="India"/>
 					<!--          <div class="info_social">-->
 					<!--            <a href="#ReadMore">-->
 					<!--              <svg-->
@@ -85,7 +87,8 @@
 						<div id="googleMap" style="margin:0 auto">
 							<iframe
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.3536318002231!2d115.17966008313937!3d-8.8034425573462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2455241786bc9%3A0x88e50b6325a3a7e0!2sCV%20Bersyukur%20Nalar%20Luas!5e0!3m2!1sen!2sid!4v1702142548984!5m2!1sen!2sid"
-								width="100%" height="240" style="border:0;" allowfullscreen="" title="GPS coordinate: -8.803461, 115.179797"
+								width="100%" height="240" style="border:0;" allowfullscreen=""
+								title="GPS coordinate: -8.803461, 115.179797"
 								loading="lazy"></iframe>
 						</div>
 					</div>
@@ -97,10 +100,10 @@
 					<div class="contact_link_box">
 						<p style="color: white"></p>
 						CV. Bersyukur Nalar Luas
-<!--						<a>-->
-<!--							<i class="fa fa-phone" aria-hidden="true"/>-->
-<!--							<span> Call +62-85156365353 </span>-->
-<!--						</a>-->
+						<!--						<a>-->
+						<!--							<i class="fa fa-phone" aria-hidden="true"/>-->
+						<!--							<span> Call +62-85156365353 </span>-->
+						<!--						</a>-->
 						<p>
 							<i class="fa fa-envelope" aria-hidden="true"/>
 							<a class="x" href="mailto:admin@benalu.dev">admin@benalu.dev</a>
