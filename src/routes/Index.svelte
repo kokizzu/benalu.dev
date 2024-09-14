@@ -6,6 +6,7 @@
 	import OurTechs from "./OurTechs.svelte";
 	import WhyUs from "./WhyUs.svelte";
 	import Home from "./Home.svelte";
+  import Partners from "./Partners.svelte";
 </script>
 
 <Home/>
@@ -14,4 +15,5 @@
 <WhyUs/>
 <HowItWorks/>
 <OurTechs/>
+<Partners/>
 <Info/>

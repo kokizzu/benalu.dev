@@ -48,6 +48,7 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#ContactUs">Contact Us</a>
 						</li>
+						<!-- svelte-ignore a11y-click-events-have-key-events -->
 						<li class="nav-item" on:click={openNav}>
 							<button class="nav-link bar-toggler"
 							>
