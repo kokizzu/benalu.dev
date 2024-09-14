@@ -8,7 +8,7 @@
     <div class="boarding_house_list">
       <BoardingHouse
         name="CV. Bersyukur Nalar Luas"
-        normalPrice={140000}
+        normalPrice={1400000}
         discountPrice={1000000}
         discountTerms="Must pay 50% before 15th September 2024"
         facilities={[
