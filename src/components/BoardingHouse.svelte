@@ -1,9 +1,12 @@
 <script>
   /**
    * @typedef {Object} room
+   * @property {string} name
+   * @property {string} image_url
    * @property {string} size
    * @property {string} availableAt
    * @property {string[]} facilities
+   * @property {string} youtube_url
    */
   export let name = /** @type {string} */ ('');
   export let facilities = /** @type {string[]} */ ([]);
@@ -12,6 +15,12 @@
   export let discountTerms = /** @type {string} */ ('');
   export let rooms = /** @type {room[]} */ ([]);
   export let mapLink = /** @type {string} */ ('');
+
+  let roomToAsk = /** @type {room} */ ({
+    availableAt: '',
+    facilities: [],
+    size: ''
+  });
 </script>
 
 <div class="boarding-house">
@@ -67,22 +76,54 @@
     <div class="rooms">
       <h3 class="title">Rooms</h3>
       {#each (rooms || []) as room}
-        <table class="room">
-          <tbody>
-            <tr>
-              <td class="key">Size</td>
-              <td class="value">: {room.size}</td>
-            </tr>
-            <tr>
-              <td class="key">Available at</td>
-              <td class="value">: {room.availableAt}</td>
-            </tr>
-            <tr>
-              <td class="key">Facilities</td>
-              <td class="value">: {room.facilities.join(', ')}</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="room_container">
+          <div class="main">
+            <div class="image">
+              <img
+                src={room.image_url}
+                on:error={() => room.image_url = '/placeholder-image.webp'}
+                alt={room.name}
+              />
+            </div>
+            <table class="room">
+              <tbody>
+                <tr>
+                  <td class="key">Name</td>
+                  <td class="value">: {room.name}</td>
+                </tr>
+                <tr>
+                  <td class="key">Size</td>
+                  <td class="value">: {room.size}</td>
+                </tr>
+                <tr>
+                  <td class="key">Available at</td>
+                  <td class="value">: {room.availableAt}</td>
+                </tr>
+                <tr>
+                  <td class="key">Facilities</td>
+                  <td class="value">: {room.facilities.join(', ')}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          {#if room.youtube_url}
+            <div class="youtube">
+              <iframe
+                width="100%"
+                height="315"
+                src={room.youtube_url}
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                class="youtube_iframe {room.youtube_url != '' ? '' : 'hidden'}"
+              >
+              </iframe>
+            </div>
+          {/if}
+          <button class="btn">Ask</button>
+        </div>
       {/each}
     </div>
   </div>
@@ -188,18 +229,78 @@
     font-size: large;
   }
 
-  .boarding-house .details .rooms .room {
+  .boarding-house .details .rooms .room_container {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    height: fit-content;
+    width: 100%;
+    position: relative;
     background-color: #293f63;
     padding: 10px;
+    gap: 10px;
     border-radius: 10px;
   }
 
-  .boarding-house .details .rooms .room .key {
+  .boarding-house .details .rooms .room_container .main {
+    display: flex;
+    height: fit-content;
+    gap: 10px;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .boarding-house .details .rooms .room_container .main .image {
+    height: 130px;
+    width: 200px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .boarding-house .details .rooms .room_container .main .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .boarding-house .details .rooms .room_container .main .room {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .boarding-house .details .rooms .room_container .main .room .key {
     color: #ff7241;
     padding-right: 10px;
     width: 98px;
+  }
+
+  .boarding-house .details .rooms .room_container .btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff7241;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: small;
+  }
+
+  .boarding-house .details .rooms .room_container .btn:hover {
+    background-color: #f5855f;
+  }
+
+  .boarding-house .details .rooms .room_container .youtube {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .boarding-house .details .rooms .room_container .youtube .youtube_iframe {
+    object-fit: cover;
+  }
+
+  .boarding-house .details .rooms .room_container .youtube .youtube_iframe.hidden {
+    display: none !important;
   }
 </style>
