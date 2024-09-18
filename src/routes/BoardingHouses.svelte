@@ -5,6 +5,9 @@
 
 <section id="BoardingHouses" class="client_section layout_padding my-4">
   <div class="container">
+    <div class="heading_container pb-5">
+			<h2 class="section-title">Boarding Houses</h2>
+		</div>
     <div class="boarding_house_list">
       <BoardingHouse
         name="CV. Bersyukur Nalar Luas"

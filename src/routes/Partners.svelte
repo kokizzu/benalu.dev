@@ -5,6 +5,9 @@
 
 <section id="Partners" class="client_section layout_padding my-4">
   <div class="container">
+    <div class="heading_container pb-5">
+			<h2 class="section-title">Our Partners</h2>
+		</div>
     <div class="partner_list">
       <Partner
         name="Tokopedia"
