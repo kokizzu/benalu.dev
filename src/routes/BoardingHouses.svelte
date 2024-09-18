@@ -1,6 +1,6 @@
 <script>
   import BoardingHouse from "../components/BoardingHouse.svelte";
-
+  import GoButton from "../components/GoButton.svelte";
 </script>
 
 <section id="BoardingHouses" class="client_section layout_padding my-4">
@@ -35,6 +35,7 @@
       />
     </div>
   </div>
+  <GoButton target="#Home"> Back to Top</GoButton>
 </section>
 
 <style>
@@ -43,5 +44,11 @@
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     width: 100%;
+  }
+
+  @media only screen and (max-width : 768px) {
+    .boarding_house_list {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

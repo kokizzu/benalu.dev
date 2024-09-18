@@ -1,4 +1,7 @@
 <script>
+  import PopUpBoardingHouse from "./PopUpBoardingHouse.svelte";
+import PopUpForm from "./PopUpBoardingHouse.svelte";
+
   /**
    * @typedef {Object} room
    * @property {string} name
@@ -21,7 +24,16 @@
     facilities: [],
     size: ''
   });
+
+  let popUpBoardingHouse;
+  let roomNameToAsk = "";
 </script>
+
+<PopUpBoardingHouse
+  bind:this={popUpBoardingHouse}
+  HOUSE_NAME={name}
+  bind:ROOM_NAME={roomNameToAsk}
+/>
 
 <div class="boarding-house">
   <div class="map_container">
@@ -122,7 +134,12 @@
               </iframe>
             </div>
           {/if}
-          <button class="btn">Ask</button>
+          <button class="btn" on:click={() => {
+            roomNameToAsk = room.name;
+            popUpBoardingHouse.Show()            
+          }}>
+            Ask
+          </button>
         </div>
       {/each}
     </div>

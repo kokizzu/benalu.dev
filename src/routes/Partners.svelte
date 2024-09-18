@@ -1,4 +1,5 @@
 <script>
+  import GoButton from "../components/GoButton.svelte";
   import Partner from "../components/Partner.svelte";
 </script>
 
@@ -21,6 +22,7 @@
       />
     </div>
   </div>
+  <GoButton target="#Home"> Back to Top</GoButton>
 </section>
 
 <style>
@@ -29,5 +31,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     width: 100%;
+  }
+
+  @media only screen and (max-width : 768px) {
+    .partner_list {
+      grid-template-columns: 1fr;
+    }
   }
 </style>
