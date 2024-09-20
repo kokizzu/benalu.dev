@@ -26,7 +26,7 @@
   for (let q of kuisioner) {
     quizs = [...quizs, {
       question: q.question,
-      answer: q.choices[0]
+      answer: ''
     }];
   }
 
@@ -41,7 +41,7 @@ Pertanyaan:
 ${quizs.map((item, idx) => `${idx + 1}. ${item.question}: ${item.answer}`).join('\n')}
 `
     console.log(payload);
-    // SUBMIT HERE
+    window.location.href = 'https://t.me/benaludev?text='+encodeURIComponent(payload);
   }
 </script>
 
@@ -59,11 +59,11 @@ ${quizs.map((item, idx) => `${idx + 1}. ${item.question}: ${item.answer}`).join(
           <span class="title">{q.question}</span>
           {#each (q.choices || []) as a}
             <div class="answers">
-              <label class="answer" for={a} name="q1">
+              <label class="answer" for={a} name={q.question}>
                 <input
                   type="radio"
                   id={a}
-                  name="q1"
+                  name={q.question}
                   value={a}
                   checked={quizs[idx].answer === a}
                   on:change={
@@ -292,14 +292,14 @@ ${quizs.map((item, idx) => `${idx + 1}. ${item.question}: ${item.answer}`).join(
 	}
 
 	.popup_container .popup .foot button.ok {
-		background-color: #22c55e;
+		background-color: var(--bs-green);
     display: flex;
     justify-content: center;
     align-items: center;
 	}
 
   .popup_container .popup .foot button.ok:hover {
-    background-color: #4ade80;
+    background-color: rgb(83, 218, 132);
   }
 
 	.popup_container .popup .foot button.ok:disabled {
@@ -318,7 +318,7 @@ ${quizs.map((item, idx) => `${idx + 1}. ${item.question}: ${item.answer}`).join(
 
   @media only screen and (max-width : 768px) {
     .popup_container {
-      padding: 40px 30px;
+      padding: 20px;
     }
 
     .popup_container .popup {

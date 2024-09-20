@@ -46,7 +46,7 @@
 
 <style>
 	a.x, a.x:hover {
-		color: rgb(71, 210, 120);
+		color: var(--bs-green);
 		border: none;
 		background: none;
 		padding: 0;

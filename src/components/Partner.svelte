@@ -25,6 +25,7 @@
               src={BsTelegram}
               size={18}
               color="#FFF"
+              className="icon"
             />
             <span>@{contact.value}</span>
           </a>
@@ -35,6 +36,7 @@
               src={BsWhatsapp}
               size={18}
               color="#FFF"
+              className="icon"
             />
             <span>{contact.value}</span>
           </a>
@@ -64,7 +66,7 @@
   }
 
   .partner .address {
-    color: rgb(71, 210, 120);
+    color: var(--bs-green);
     margin: 0 0 10px 0;
   }
 
@@ -86,6 +88,10 @@
   }
 
   .partner .contacts a:hover span {
-    text-decoration: underline;
+    color: var(--bs-orange);
+  }
+
+  :global(.partner .contacts a:hover .icon) {
+    color: var(--bs-orange) !important;
   }
 </style>

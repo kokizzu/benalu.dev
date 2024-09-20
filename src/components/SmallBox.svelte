@@ -56,7 +56,7 @@
 	}
 
 	a {
-		color: rgb(71, 210, 120);
+		color: var(--bs-green);
 	}
 
 </style>

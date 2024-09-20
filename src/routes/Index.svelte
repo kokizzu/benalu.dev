@@ -16,6 +16,6 @@
 <WhyUs/>
 <HowItWorks/>
 <OurTechs/>
-<Partners/>
 <BoardingHouses/>
+<Partners/>
 <Info/>

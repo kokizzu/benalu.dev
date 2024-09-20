@@ -47,7 +47,7 @@
 		padding: 0;
 		margin: 0;
 		background-color: transparent;
-		color: rgb(71, 210, 120);
+		color: var(--bs-green);
 		font-weight: bold;
 	}
 

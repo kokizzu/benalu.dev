@@ -220,7 +220,7 @@ import PopUpForm from "./PopUpBoardingHouse.svelte";
     font-size: xx-large;
     font-weight: 600;
     margin: 0;
-    color: rgb(71, 210, 120);
+    color: var(--bs-green);
   }
 
   .boarding-house .details .price-container .discount-terms {
@@ -319,5 +319,39 @@ import PopUpForm from "./PopUpBoardingHouse.svelte";
 
   .boarding-house .details .rooms .room_container .youtube .youtube_iframe.hidden {
     display: none !important;
+  }
+
+  @media only screen and (max-width : 768px) {
+    .boarding-house {
+      padding: 10px;
+    }
+
+    .boarding-house .details .rooms .room_container .main {
+      flex-direction: column;
+    }
+
+    .boarding-house .details .rooms .room_container .main .image {
+      height: 130px;
+      width: 100%;
+    }
+
+    .boarding-house .details .rooms .room_container .youtube .youtube_iframe {
+      height: 200px;
+    }
+
+    .boarding-house .details .rooms .room_container .btn {
+      top: 15px;
+      right: 15px;
+    }
+
+    .boarding-house .details .rooms .room_container .main .room tbody tr {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .boarding-house .details .rooms .room_container .main .room tbody tr .value {
+      width: auto;
+      flex-grow: 1;
+    }
   }
 </style>
