@@ -242,7 +242,7 @@
         ]}
 				rooms={[
           {
-            name: "I10",
+            name: "H10",
             image_url: "/placeholder-image.webp",
             size: "2.5x3.5",
             availableAt: "2025-01-01",
@@ -253,7 +253,7 @@
             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
           {
-            name: "I11",
+            name: "H11",
             image_url: "/placeholder-image.webp",
             size: "2.5x3.5",
             availableAt: "2025-01-01",
@@ -264,7 +264,7 @@
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
           {
-            name: "I12",
+            name: "H12",
             image_url: "/placeholder-image.webp",
             size: "2.5x3.5",
             availableAt: "2025-01-01",
@@ -275,7 +275,7 @@
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
           {
-            name: "I13",
+            name: "H13",
             image_url: "/placeholder-image.webp",
             size: "2.5x3.5",
             availableAt: "2025-01-01",
@@ -286,7 +286,7 @@
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
           {
-            name: "I14",
+            name: "H14",
             image_url: "/placeholder-image.webp",
             size: "2.5x3.5",
             availableAt: "2025-01-01",
@@ -297,7 +297,7 @@
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
           {
-            name: "I25",
+            name: "H25",
             image_url: "/placeholder-image.webp",
             size: "2.5x3.5",
             availableAt: "2025-01-01",
@@ -308,7 +308,7 @@
             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
           {
-            name: "I26",
+            name: "H26",
             image_url: "/placeholder-image.webp",
             size: "2.5x3.5",
             availableAt: "2025-01-01",
@@ -319,7 +319,7 @@
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
           {
-            name: "I27",
+            name: "H27",
             image_url: "/placeholder-image.webp",
             size: "2.5x3.5",
             availableAt: "2025-01-01",
@@ -330,7 +330,7 @@
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
           {
-            name: "I28",
+            name: "H28",
             image_url: "/placeholder-image.webp",
             size: "2.5x3.5",
             availableAt: "2025-01-01",
@@ -341,7 +341,7 @@
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
           {
-            name: "I29",
+            name: "H29",
             image_url: "/placeholder-image.webp",
             size: "2.5x3.5",
             availableAt: "2025-01-01",
