@@ -16,7 +16,7 @@
 				facilities={[
 					"Wooden House",
           "2 Shower Bathroom and Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
-          "Portable Foam Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
+          "Portable Foam Bed 80x195", "Lazy Chair Divan", "Topper", "Bedsheet", "Bedcover", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
           {
@@ -95,7 +95,7 @@
 				facilities={[
 					"Wooden House",
           "1 Shower Bathroom", "1 Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
-          "Portable Foam Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
+          "Portable Foam Bed 80x195", "Lazy Chair Divan", "Topper", "Bedsheet", "Bedcover", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
           {
@@ -139,7 +139,7 @@
 				facilities={[
 					"Wooden House",
           "1 Shower Bathroom", "1 Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
-          "Portable Foam Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
+          "Portable Foam Bed 80x195", "Lazy Chair Divan", "Topper", "Bedsheet", "Bedcover", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
           {
@@ -183,7 +183,7 @@
 				facilities={[
 					"Fibercement House",
           "WiFi", "CCTV", "2 ShowerBathroom and Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
-          "Portable Foam Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
+          "Portable Foam Bed 80x195", "Lazy Chair Divan", "Topper", "Bedsheet", "Bedcover", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
           {
@@ -238,7 +238,7 @@
 				facilities={[
 					"Wooden House",
           "4 ShowerBathroom and Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
-          "Portable Foam Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
+          "Portable Foam Bed 80x195", "Lazy Chair Divan", "Topper", "Bedsheet", "Bedcover", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
           {
@@ -359,7 +359,7 @@
 				facilities={[
 					"Bricks and Fibercement House",
           "4 ShowerBathroom and Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
-          "Portable Foam Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
+          "Portable Foam Bed 80x195", "Lazy Chair Divan", "Topper", "Bedsheet", "Bedcover", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
           {
@@ -480,7 +480,7 @@
 				facilities={[
 					"Fibercement House",
           "1 ShowerBathroom and Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
-          "Portable Foam Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
+          "Portable Foam Bed 80x195", "Lazy Chair Divan", "Topper", "Bedsheet", "Bedcover", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
           {
