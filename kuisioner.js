@@ -62,7 +62,7 @@ export const kuisioner = [
     "question": "Saya ingin mengajukan kost dengan",
     "choices": [
       "Bayar penuh (kirimkan foto KTP, dan bukti transfer sewa kost apabila kamar tersedia)",
-      "Harga diskon (perlu kirimkan bukti transfer donasi juga apabila kamar tersedia)"
+      "Harga diskon (perlu kirimkan foto KTP, bukti transfer donasi+sewa kost apabila kamar tersedia)"
     ]
   }
 ]
