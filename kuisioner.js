@@ -9,15 +9,26 @@
  */
 export const kuisioner = [
   {
-    "question": "Apa yang anda sukai?",
+    "question": "Sampah pribadi sebelum dibuang ke tempat sampah sebaiknya?",
     "choices": [
-      "A", "B", "C"
+      "Dimasukkan ke dalam kantong kresek",
+      "Tidak diapa2kan"
     ]
   },
   {
-    "question": "Bahasa pemrograman favoritmu?",
+    "question": "Apakah etis membawa teman/menginap ke dalam kamar?",
     "choices": [
-      "Java", "Python", "Go", "C++", "JavaScript", "Ruby"
+      "Tidak",
+      "Selama mendapat ijin menginap dari pemilik kost",
+      "Selama bukan lawan jenis",
     ]
   },
+  {
+    "question": "Apakah etis merokok/mabuk2an/berisik di dalam kamar?",
+    "choices": [
+      "Tidak",
+      "Selama bukan di bangunan dengan bahan kayu",
+      "Kehilangan kesadaran di dalam kamar tidak apa2",
+    ]
+  }
 ]
