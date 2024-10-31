@@ -57,5 +57,12 @@ export const kuisioner = [
       "Tidak mencuci kaki sebelum masuk ke dalam kamar",
       "Membersihkan kamar dan mengganti sarung bantal/guling secara berkala",
     ]
+  },
+  {
+    "question": "Saya ingin mengajukan kost dengan",
+    "choices": [
+      "Bayar penuh (kirimkan foto KTP, dan bukti transfer sewa kost apabila kamar tersedia)",
+      "Harga diskon (perlu kirimkan bukti transfer donasi juga apabila kamar tersedia)"
+    ]
   }
 ]
