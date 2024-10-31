@@ -15,7 +15,7 @@
 				name="Kost JC Dominion (D)"
 				facilities={[
 					"Wooden House",
-          "2 Shower", "Shared Trash Can", "Free Electricity (500K per month)",
+          "2 Shower Bathroom and Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
           "Portable Foam Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
@@ -91,11 +91,99 @@
 			/>
 			<BoardingHouse
 				mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.3536318002231!2d115.17966008313937!3d-8.8034425573462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2455241786bc9%3A0x88e50b6325a3a7e0!2sCV%20Bersyukur%20Nalar%20Luas!5e0!3m2!1sen!2sid!4v1702142548984!5m2!1sen!2sid"
+				name="Kost JC Eternal (E)"
+				facilities={[
+					"Wooden House",
+          "1 Shower Bathroom", "1 Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
+          "Portable Foam Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
+        ]}
+				rooms={[
+          {
+            name: "E11",
+            image_url: "/placeholder-image.webp",
+            size: "3x4",
+            availableAt: "2024-12-01",
+            normalPrice: 1_600_000,
+        		discountPrice: 1_000_000,
+	         discountTerms: "Donate to our partner each month at least 500K",
+            facilities: [],
+             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          },
+          {
+            name: "E22",
+            image_url: "/placeholder-image.webp",
+            size: "3x4",
+            availableAt: "2024-12-01",
+				normalPrice: 1_400_000,
+				discountPrice: 1_000_000,
+	         discountTerms: "Donate to our partner each month at least 300K",
+            facilities: [],
+             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+			 },
+          {
+            name: "E23",
+            image_url: "/placeholder-image.webp",
+            size: "3x4",
+            availableAt: "2024-12-01",
+				normalPrice: 1_400_000,
+				discountPrice: 1_000_000,
+	         discountTerms: "Donate to our partner each month at least 300K",
+            facilities: [],
+             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          },
+        ]}
+				/>
+			<BoardingHouse
+				mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.3536318002231!2d115.17966008313937!3d-8.8034425573462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2455241786bc9%3A0x88e50b6325a3a7e0!2sCV%20Bersyukur%20Nalar%20Luas!5e0!3m2!1sen!2sid!4v1702142548984!5m2!1sen!2sid"
+				name="Kost JC Faith (F)"
+				facilities={[
+					"Wooden House",
+          "1 Shower Bathroom", "1 Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
+          "Portable Foam Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
+        ]}
+				rooms={[
+          {
+            name: "F11",
+            image_url: "/placeholder-image.webp",
+            size: "3x4",
+            availableAt: "2024-12-01",
+            normalPrice: 1_600_000,
+        		discountPrice: 1_000_000,
+	         discountTerms: "Donate to our partner each month at least 500K",
+            facilities: [],
+             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          },
+          {
+            name: "F22",
+            image_url: "/placeholder-image.webp",
+            size: "3x4",
+            availableAt: "2024-12-01",
+				normalPrice: 1_400_000,
+				discountPrice: 1_000_000,
+	         discountTerms: "Donate to our partner each month at least 300K",
+            facilities: [],
+             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+			 },
+          {
+            name: "F23",
+            image_url: "/placeholder-image.webp",
+            size: "3x4",
+            availableAt: "2024-12-01",
+				normalPrice: 1_400_000,
+				discountPrice: 1_000_000,
+	         discountTerms: "Donate to our partner each month at least 300K",
+            facilities: [],
+             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          },
+        ]}
+				/>
+			<BoardingHouse
+				mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.3536318002231!2d115.17966008313937!3d-8.8034425573462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2455241786bc9%3A0x88e50b6325a3a7e0!2sCV%20Bersyukur%20Nalar%20Luas!5e0!3m2!1sen!2sid!4v1702142548984!5m2!1sen!2sid"
 				name="Kost JC Grace (G)"
 				discountTerms="Donate to our partner each month at least 400K"
 				facilities={[
 					"Fibercement House",
-          "WiFi", "CCTV", "2 Shower", "Shared Trash Can", "Free Electricity (500K per month)",
+          "WiFi", "CCTV", "2 ShowerBathroom and Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
           "Portable Foam Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
