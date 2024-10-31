@@ -11,15 +11,16 @@ export const kuisioner = [
   {
     "question": "Sampah pribadi sebelum dibuang ke tempat sampah sebaiknya?",
     "choices": [
-      "Dimasukkan ke dalam kantong kresek",
-      "Tidak diapa2kan"
+      "Tunggu sampai membusuk/berbau/didatangi serangga",
+      "Langsung saja dibuang tanpa dibungkus",
+      "Dimasukkan ke dalam kantong kresek/plastik terlebih dahulu",
     ]
   },
   {
     "question": "Apakah etis membawa teman/menginap ke dalam kamar?",
     "choices": [
       "Tidak",
-      "Selama mendapat ijin menginap dari pemilik kost",
+      "Boleh saja, selama tidak ketahuan pemilik kost",
       "Selama bukan lawan jenis",
       "Selama sekeluarga",
     ]
@@ -43,9 +44,9 @@ export const kuisioner = [
   {
     "question": "Apabila ada kerusakan di dalam kamar atau fasilitas umum sebaiknya?",
     "choices": [
-      "Diam saja sampai akhir kontrak/kost habis",
+      "Diam saja sampai akhir kontrak/kost habis atau ada yg lapor duluan",
       "Fitnah tetangga yg kemungkinan merusakkan hal tersebut",
-      "Segera melaporkan ke pemilik/penjaga kost agar diperbaiki",
+      "Segera melaporkan ke pemilik/penjaga kost agar diperbaiki agar tidak semakin parah",
     ]
   }
 ]
