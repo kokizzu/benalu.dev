@@ -15,7 +15,8 @@
 				name="Kost JC Dominion (D)"
 				facilities={[
 					"Wooden House",
-          "WiFi", "CCTV", "2 Shower", "Shared Trash Can", "Free Electricity (500K per month)",
+          "2 Shower", "Shared Trash Can", "Free Electricity (500K per month)",
+          "Portable Foam Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
           {
@@ -25,6 +26,7 @@
             availableAt: "2024-11-15",
             normalPrice: 1_400_000,
         		discountPrice: 1_000_000,
+	         discountTerms: "Donate to our partner each month at least 300K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
             // TODO: make youtube lazy loading
@@ -41,7 +43,7 @@
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
 			 },
           {
-            name: "G23",
+            name: "D13",
             image_url: "/placeholder-image.webp",
             size: "3.5x3.5",
             availableAt: "2024-11-15",
@@ -52,10 +54,33 @@
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
           {
-            name: "G24",
+            name: "D24",
+            image_url: "/placeholder-image.webp",
+            size: "3x4",
+            availableAt: "2024-11-15",
+            normalPrice: 1_400_000,
+        		discountPrice: 1_000_000,
+	         discountTerms: "Donate to our partner each month at least 300K",
+            facilities: [],
+             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+            // TODO: make youtube lazy loading
+          },
+          {
+            name: "D25",
             image_url: "/placeholder-image.webp",
             size: "3x3",
-            availableAt: "2024-10-30",
+            availableAt: "2024-11-15",
+				normalPrice: 1_200_000,
+				discountPrice: 1_000_000,
+	         discountTerms: "Donate to our partner each month at least 100K",
+            facilities: [],
+             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+			 },
+          {
+            name: "D26",
+            image_url: "/placeholder-image.webp",
+            size: "3.5x3.5",
+            availableAt: "2024-11-15",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
 	         discountTerms: "Donate to our partner each month at least 100K",
@@ -70,8 +95,8 @@
 				discountTerms="Donate to our partner each month at least 400K"
 				facilities={[
 					"Fibercement House",
-          "WiFi", "CCTV", "2 Shower", "Shared Trash Can", "Free Electricity",
-          "Portable Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "AC"
+          "WiFi", "CCTV", "2 Shower", "Shared Trash Can", "Free Electricity (500K per month)",
+          "Portable Foam Bed", "Lazy Chair", "Bedcover", "Bedsheet", "Topper", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
           {
