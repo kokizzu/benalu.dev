@@ -1,6 +1,5 @@
 <script>
   import PopUpBoardingHouse from "./PopUpBoardingHouse.svelte";
-import PopUpForm from "./PopUpBoardingHouse.svelte";
 
   /**
    * @typedef {Object} room
@@ -18,12 +17,6 @@ import PopUpForm from "./PopUpBoardingHouse.svelte";
   export let discountTerms = /** @type {string} */ ('');
   export let rooms = /** @type {room[]} */ ([]);
   export let mapLink = /** @type {string} */ ('');
-
-  let roomToAsk = /** @type {room} */ ({
-    availableAt: '',
-    facilities: [],
-    size: ''
-  });
 
   let popUpBoardingHouse;
   let roomNameToAsk = "";

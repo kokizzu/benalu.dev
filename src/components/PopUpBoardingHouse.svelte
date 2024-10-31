@@ -11,6 +11,10 @@
   export const Show = () => isShow = true;
   export const Hide = () => isShow = false;
 
+  function randString() {
+    return Math.random().toString(36).substring(2, 8);
+  }
+
   const cancel = () => {
     isShow = false;
   }
@@ -31,17 +35,17 @@
   }
 
   function OnSubmit() {
-    let payload = `Kost:
+    let payload = `**Kost**:
 ${HOUSE_NAME}
 
-Kamar:
+**Kamar**:
 ${ROOM_NAME}
 
-Pertanyaan:
-${quizs.map((item, idx) => `${idx + 1}. ${item.question}: ${item.answer}`).join('\n')}
+**Pertanyaan**:
+${quizs.map((item, idx) => `${idx + 1}. **${item.question}**: ${item.answer}`).join('\n')}
 `
     console.log(payload);
-    window.location.href = 'https://t.me/benaludev?text='+encodeURIComponent(payload);
+    window.open('https://t.me/benaludev?text='+encodeURIComponent(payload), '_blank');
   }
 </script>
 
@@ -58,11 +62,12 @@ ${quizs.map((item, idx) => `${idx + 1}. ${item.question}: ${item.answer}`).join(
         <div class="question">
           <span class="title">{q.question}</span>
           {#each (q.choices || []) as a}
+            {@const id = "_" + randString()}
             <div class="answers">
-              <label class="answer" for={a} name={q.question}>
+              <label class="answer" for={id} name={q.question}>
                 <input
                   type="radio"
-                  id={a}
+                  id={id}
                   name={q.question}
                   value={a}
                   checked={quizs[idx].answer === a}
@@ -171,7 +176,7 @@ ${quizs.map((item, idx) => `${idx + 1}. ${item.question}: ${item.answer}`).join(
 		padding: 20px;
 		display: flex;
 		flex-direction: column;
-		gap: 15px;
+		gap: 25px;
 	}
 
   .popup_container .popup .forms .question {
@@ -182,6 +187,7 @@ ${quizs.map((item, idx) => `${idx + 1}. ${item.question}: ${item.answer}`).join(
 
   .popup_container .popup .forms .question .title {
     font-size: 18px;
+    font-weight: 600;
   }
 
   .popup_container .popup .forms .question .answers {
@@ -226,8 +232,8 @@ ${quizs.map((item, idx) => `${idx + 1}. ${item.question}: ${item.answer}`).join(
   .popup_container .popup .forms .question .answers .answer input[type="radio"] {
     background-color: var(--bs-gray);
     appearance: none;
-    width: 17px;
-    height: 17px;
+    width: 25px;
+    height: 25px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
