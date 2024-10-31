@@ -7,19 +7,43 @@
    * @property {string} image_url
    * @property {string} size
    * @property {string} availableAt
+   * @property {number} normalPrice
+   * @property {number} discountPrice
+   * @property {string} discountTerms
    * @property {string[]} facilities
    * @property {string} youtube_url
    */
   export let name = /** @type {string} */ ('');
   export let facilities = /** @type {string[]} */ ([]);
-  export let normalPrice = /** @type {number} */ (0);
-  export let discountPrice = /** @type {number} */ (0);
-  export let discountTerms = /** @type {string} */ ('');
   export let rooms = /** @type {room[]} */ ([]);
   export let mapLink = /** @type {string} */ ('');
 
   let popUpBoardingHouse;
   let roomNameToAsk = "";
+
+  /**
+   * Get avaiability of boarding house
+   * @param dateString {string}
+   * @returns {string}
+   */
+  function getAvailability(dateString) {
+    const targetDate = new Date(dateString);
+    const today = new Date();
+
+    today.setHours(0, 0, 0, 0);
+    targetDate.setHours(0, 0, 0, 0);
+
+    const diffTime = targetDate - today;
+    const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24));
+
+    if (diffDays < 0) {
+      return `${Math.abs(diffDays)} days ago`;
+    } else if (diffDays > 0) {
+      return `In ${diffDays} day(s)`;
+    } else {
+      return "Today !!";
+    }
+  }
 </script>
 
 <PopUpBoardingHouse
@@ -48,36 +72,6 @@
         {/each}
       </div>
     {/if}
-    <div class="price-container">
-      <div class="price">
-        {#if discountPrice > 0}
-          <span class="discount">{
-            new Intl.NumberFormat('id', {
-              style: 'currency',
-              currency: 'IDR',
-              minimumFractionDigits: 0,
-              maximumFractionDigits: 0
-            }).format(Number(normalPrice))
-          }</span>
-        {/if}
-        <span class="normal">{
-          new Intl.NumberFormat('id', {
-            style: 'currency',
-            currency: 'IDR',
-            minimumFractionDigits: 0,
-            maximumFractionDigits: 0
-          }).format(
-            Number(discountPrice > 0 ? discountPrice : normalPrice)
-          )
-        }</span>
-      </div>
-      {#if discountPrice > 0}
-        <p class="discount-terms">
-          <span class="asterisk">*</span>
-          {discountTerms}
-        </p>
-      {/if}
-    </div>
     <div class="rooms">
       <h3 class="title">Rooms</h3>
       {#each (rooms || []) as room}
@@ -101,12 +95,46 @@
                   <td class="value">: {room.size}</td>
                 </tr>
                 <tr>
-                  <td class="key">Available at</td>
-                  <td class="value">: {room.availableAt}</td>
+                  <td class="key">Price</td>
+                  <td class="value">: {
+                    new Intl.NumberFormat('id', {
+                      style: 'currency',
+                      currency: 'IDR',
+                      minimumFractionDigits: 0,
+                      maximumFractionDigits: 0
+                    }).format(
+                      Number(room.normalPrice || 0)
+                    )
+                  }</td>
+                </tr>
+                <tr>
+                  <td class="key">Discount Price</td>
+                  <td class="value">: {
+                    new Intl.NumberFormat('id', {
+                      style: 'currency',
+                      currency: 'IDR',
+                      minimumFractionDigits: 0,
+                      maximumFractionDigits: 0
+                    }).format(
+                      Number(room.discountPrice || 0)
+                    )
+                  }</td>
+                </tr>
+                <tr>
+                  <td class="key">Available At</td>
+                  <td class="value">: {
+                    room.availableAt
+                    ? getAvailability(room.availableAt)
+                    : "--"
+                  }</td>
                 </tr>
                 <tr>
                   <td class="key">Facilities</td>
-                  <td class="value">: {room.facilities.join(', ')}</td>
+                  <td class="value">: {
+                    room.facilities && room.facilities.length > 0
+                    ? room.facilities.join(', ')
+                    : '--'
+                  }</td>
                 </tr>
               </tbody>
             </table>
@@ -127,7 +155,12 @@
               </iframe>
             </div>
           {/if}
-          <button class="btn" on:click={() => {
+          <button class="btn" class:available={
+            new Date(room.availableAt) <= new Date()
+          } class:unavailable={
+            new Date(room.availableAt) > new Date()
+          }
+          on:click={() => {
             roomNameToAsk = room.name;
             popUpBoardingHouse.Show()            
           }}>
@@ -190,42 +223,6 @@
     font-size: smaller;
   }
 
-  .boarding-house .details .price {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .boarding-house .details .price-container {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }
-
-  .boarding-house .details .price-container .price .discount {
-    text-decoration: line-through;
-    margin: 0;
-    color: #ccd5e2;
-  }
-
-  .boarding-house .details .price-container .price .normal {
-    font-size: xx-large;
-    font-weight: 600;
-    margin: 0;
-    color: var(--bs-green);
-  }
-
-  .boarding-house .details .price-container .discount-terms {
-    margin: 0;
-    font-size: smaller;
-  }
-
-  .boarding-house .details .price-container .discount-terms .asterisk {
-    font-weight: 600;
-    color: #ff7241;
-  }
-
   .boarding-house .details .rooms {
     display: flex;
     flex-direction: column;
@@ -276,12 +273,13 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    font-size: 13px;
   }
 
   .boarding-house .details .rooms .room_container .main .room .key {
     color: #ff7241;
     padding-right: 10px;
-    width: 98px;
+    width: 110px;
   }
 
   .boarding-house .details .rooms .room_container .btn {
@@ -291,14 +289,26 @@
     padding: 5px 10px;
     border-radius: 5px;
     border: none;
-    background-color: #ff7241;
-    color: #ffffff;
+    color: #fff;
     cursor: pointer;
     font-size: small;
+    font-weight: 600;
   }
 
-  .boarding-house .details .rooms .room_container .btn:hover {
-    background-color: #f5855f;
+  .boarding-house .details .rooms .room_container .btn.available {
+    background-color: #3b82f6;
+  }
+  
+  .boarding-house .details .rooms .room_container .btn.available:hover {
+    background-color: #60a5fa;
+  }
+
+  .boarding-house .details .rooms .room_container .btn.unavailable {
+    background-color: #d97706;
+  }
+  
+  .boarding-house .details .rooms .room_container .btn.unavailable:hover {
+    background-color: #f59e0b;
   }
 
   .boarding-house .details .rooms .room_container .youtube {
