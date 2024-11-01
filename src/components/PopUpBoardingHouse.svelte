@@ -2,6 +2,7 @@
   import { Icon } from "svelte-icons-pack";
   import { kuisioner } from "../../kuisioner.js";
   import { IoClose } from "../../node_modules/svelte-icons-pack/dist/io"
+  import InputBox from "./InputBox.svelte";
 
   export let ROOM_NAME = "";
   export let HOUSE_NAME = "";
@@ -30,12 +31,26 @@
   for (let q of kuisioner) {
     quizs = [...quizs, {
       question: q.question,
-      answer: ''
+      answer: '--'
     }];
   }
 
+  let namaAseli = '';
+  let pekerjaanOrJurusanKuliah = '';
+  let namaKantorOrKampus = '';
+
   function OnSubmit() {
-    let payload = `**Kost**:
+    let payload = `
+**Nama Asli**:
+${namaAseli}
+
+**Pekerjaan / Jurusan Kuliah**:
+${pekerjaanOrJurusanKuliah}
+
+**Kantor / Kampus**:
+${namaKantorOrKampus}
+
+**Kost**:
 ${HOUSE_NAME}
 
 **Kamar**:
@@ -45,7 +60,7 @@ ${ROOM_NAME}
 ${quizs.map((item, idx) => `${idx + 1}. **${item.question}**: ${item.answer}`).join('\n')}
 `
     console.log(payload);
-    window.open('https://t.me/benaludev?text='+encodeURIComponent(payload), '_blank');
+    window.open('https://t.me/benaludev?text='+encodeURIComponent(payload.trim()), '_blank');
   }
 </script>
 
@@ -58,6 +73,24 @@ ${quizs.map((item, idx) => `${idx + 1}. **${item.question}**: ${item.answer}`).j
       </button>
     </header>
     <div class="forms">
+      <InputBox
+        label="Nama Asli"
+        id={`_`+randString()}
+        bind:value={namaAseli}
+        placeholder="Masukkan Nama Asli"
+      />
+      <InputBox
+        label="Pekerjaan / Jurusan"
+        id={`_`+randString()}
+        bind:value={pekerjaanOrJurusanKuliah}
+        placeholder="Masukkan Pekerjaan / Jurusan"
+      />
+      <InputBox
+        label="Kantor / Kampus"
+        id={`_`+randString()}
+        bind:value={namaKantorOrKampus}
+        placeholder="Masukkan Kantor / Kampus"
+      />
       {#each (kuisioner || []) as q, idx}
         <div class="question">
           <span class="title">{q.question}</span>
