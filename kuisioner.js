@@ -28,7 +28,7 @@ export const kuisioner = [
   {
     "question": "Apakah etis merokok/mabuk2an di dalam kamar?",
     "choices": [
-      "Selama bukan di bangunan dengan bahan kayu yg mudah terbakar sekalipun bau",
+      "Selama bukan di bangunan dengan bahan kayu yg mudah terbakar sekalipun bau mengganggu, beracun, dan merusak AC",
       "Kehilangan kesadaran di dalam kamar tidak apa2, kalau ada yg terganggu'pun tidak sadar",
       "Tidak, berlatih disiplin dan kontrol diri itu baik buat masa depan",
     ]

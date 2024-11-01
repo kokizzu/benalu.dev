@@ -84,30 +84,32 @@ ${quizs.map((item, idx) => `${idx + 1}. **${item.question}**: ${item.answer}`).j
 <div class={`popup_container ${isShow ? 'show' : ''}`}>
 	<div class="popup">
 		<header class="header">
-			<h2>Ask for room {ROOM_NAME}</h2>
+			<h2>Inquire for room {ROOM_NAME}</h2>
 			<button on:click={Hide}>
 				<Icon size="22" color="#FFF" src={IoClose}/>
 			</button>
 		</header>
 		<div class="forms">
 			<InputBox
-				label="Nama Asli"
+				label="Nama Asli / Real Name"
 				id={`_`+randString()}
 				bind:value={namaAsli}
-				placeholder="masukkan nama asli sesuai KTP"
+				placeholder="masukkan nama sesuai KTP / enter your name"
 			/>
 			<InputBox
-				label="Pekerjaan atau Jurusan Kuliah atau Kelas"
+				label="Pekerjaan atau Jurusan Kuliah atau Kelas / Profession or Major or Class"
 				id={`_`+randString()}
 				bind:value={pekerjaanOrJurusanKuliah}
-				placeholder="apabila sudah bekerja atau masih kuliah/sekolah"
+				placeholder="apabila sudah bekerja atau masih kuliah/sekolah / if you're working or still studying"
 			/>
 			<InputBox
-				label="Nama Kantor/Kampus/Sekolah"
+				label="Nama Kantor/Kampus/Sekolah / Company/Campus/School Name"
 				id={`_`+randString()}
 				bind:value={namaKantorOrKampus}
-				placeholder="apabila sudah bekerja atau masih kuliah/sekolah"
+				placeholder="apabila sudah bekerja atau masih kuliah/sekolah / if you're working or still studying"
 			/>
+			<hr/>
+			<h3>Eligibility Questionnaire</h3>
 			{#each (kuisioner || []) as q, idx}
 				<div class="question">
 					<span class="title">{q.question}</span>
@@ -283,8 +285,8 @@ ${quizs.map((item, idx) => `${idx + 1}. **${item.question}**: ${item.answer}`).j
 	.popup_container .popup .forms .question .answers .answer input[type="radio"] {
 		background-color: var(--bs-gray);
 		appearance: none;
-		width: 25px;
-		height: 25px;
+		min-width: 1.7em;
+		min-height: 1.7em;
 		border-radius: 50%;
 		display: flex;
 		justify-content: center;
@@ -299,12 +301,9 @@ ${quizs.map((item, idx) => `${idx + 1}. **${item.question}**: ${item.answer}`).j
 
 	.popup_container .popup .forms .question .answers .answer input[type="radio"]:before {
 		content: "";
-		width: 6px;
-		height: 6px;
 		border-radius: 50%;
 		transition: all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
 		background-color: #fff;
-		transform: scale(0);
 	}
 
 	.popup_container .popup .forms .question .answers .answer input[type="radio"]:checked::before {
