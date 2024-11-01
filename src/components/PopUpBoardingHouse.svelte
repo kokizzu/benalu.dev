@@ -46,8 +46,8 @@
 
 	function OnSubmit() {
 		if (!namaAsli) return alert('Nama Asli tidak boleh kosong');
-		if (!pekerjaanOrJurusanKuliah) return alert('Pekerjaan / Jurusan kuliah tidak boleh kosong');
-		if (!namaKantorOrKampus) return alert('Kantor / Kampus tidak boleh kosong');
+		if (!pekerjaanOrJurusanKuliah) return alert('Pekerjaan/Jurusan Kuliah/Kelas tidak boleh kosong');
+		if (!namaKantorOrKampus) return alert('Nama Kantor/Kampus/Sekolah tidak boleh kosong');
 		let no = 0;
 	  	for(let q of quizs) {
 			  ++no;
@@ -94,16 +94,16 @@ ${quizs.map((item, idx) => `${idx + 1}. **${item.question}**: ${item.answer}`).j
 				label="Nama Asli"
 				id={`_`+randString()}
 				bind:value={namaAsli}
-				placeholder="Masukkan nama asli sesuai KTP"
+				placeholder="masukkan nama asli sesuai KTP"
 			/>
 			<InputBox
-				label="Pekerjaan atau Jurusan Kuliah/Sekolah"
+				label="Pekerjaan atau Jurusan Kuliah atau Kelas"
 				id={`_`+randString()}
 				bind:value={pekerjaanOrJurusanKuliah}
 				placeholder="apabila sudah bekerja atau masih kuliah/sekolah"
 			/>
 			<InputBox
-				label="Nama Kantor atau Nama Kampus atau Sekolah"
+				label="Nama Kantor/Kampus/Sekolah"
 				id={`_`+randString()}
 				bind:value={namaKantorOrKampus}
 				placeholder="apabila sudah bekerja atau masih kuliah/sekolah"
