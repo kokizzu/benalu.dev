@@ -11,13 +11,13 @@ export const kuisioner = [
   {
     "question": "Sampah pribadi sebelum dibuang ke tempat sampah sebaiknya?",
     "choices": [
-      "Langsung saja dibuang tanpa dibungkus",
+      "Langsung saja dibuang tanpa dibungkus sekalipun sudah/akan bau",
       "Tunggu sampai membusuk/berbau/didatangi serangga",
       "Dimasukkan ke dalam kantong kresek/plastik terlebih dahulu",
     ]
   },
   {
-    "question": "Apakah etis membawa teman/menginap ke dalam kamar?",
+    "question": "Apakah tindakan bermoral membawa teman/menginap ke dalam kamar?",
     "choices": [
       "Boleh saja, selama tidak ketahuan pemilik kost",
       "Hanya kalau sekeluarga",
@@ -28,13 +28,13 @@ export const kuisioner = [
   {
     "question": "Apakah etis merokok/mabuk2an di dalam kamar?",
     "choices": [
-      "Selama bukan di bangunan dengan bahan kayu yg mudah terbakar",
+      "Selama bukan di bangunan dengan bahan kayu yg mudah terbakar sekalipun bau",
       "Kehilangan kesadaran di dalam kamar tidak apa2, kalau ada yg terganggu'pun tidak sadar",
-      "Tidak, punya disiplin kontrol diri itu baik buat masa depan",
+      "Tidak, berlatih disiplin dan kontrol diri itu baik buat masa depan",
     ]
   },
   {
-    "question": "Apakah etis berisik di dalam kamar?",
+    "question": "Apakah baik berisik di dalam kamar?",
     "choices": [
       "Mengeraskan speaker tidak apa2, selama bukan jam tidur",
       "Bernyanyi tidak apa2 selama merdu dan sesuai selera musik tetangga",
@@ -55,14 +55,14 @@ export const kuisioner = [
       "Memaku/melubangi dinding kamar",
       "Membawa binatang peliharaan ke dalam kamar",
       "Tidak mencuci kaki sebelum masuk ke dalam kamar",
-      "Membersihkan kamar dan mengganti sarung bantal/guling secara berkala",
+      "Membersihkan kamar dan laundry sarung bantal/guling/sprei secara berkala",
     ]
   },
   {
     "question": "Saya ingin mengajukan kost dengan",
     "choices": [
-      "Bayar penuh (kirimkan foto KTP, dan bukti transfer sewa kost apabila kamar tersedia)",
-      "Harga diskon (perlu kirimkan foto KTP, bukti transfer donasi+sewa kost apabila kamar tersedia)"
+      "Bayar penuh (kirimkan foto KTP dan bukti transfer sewa kost apabila kamar sudah tersedia)",
+      "Harga diskon (perlu kirimkan foto KTP, bukti transfer donasi+sewa kost apabila kamar sudah tersedia)"
     ]
   }
 ]

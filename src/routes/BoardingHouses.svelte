@@ -8,14 +8,14 @@
 		<div class="heading_container pb-5">
 			<h2 class="section-title">Boarding Houses</h2>
 		</div>
-			<!-- TODO: make mapLink loading -->
 		<div class="boarding_house_list">
+			<!-- perdana griya: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.3536318002231!2d115.17966008313937!3d-8.8034425573462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2455241786bc9%3A0x88e50b6325a3a7e0!2sCV%20Bersyukur%20Nalar%20Luas!5e0!3m2!1sen!2sid!4v1702142548984!5m2!1sen!2sid -->
 			<BoardingHouse
-				mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.3536318002231!2d115.17966008313937!3d-8.8034425573462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2455241786bc9%3A0x88e50b6325a3a7e0!2sCV%20Bersyukur%20Nalar%20Luas!5e0!3m2!1sen!2sid!4v1702142548984!5m2!1sen!2sid"
+				mapLink="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1971.4212310185662!2d115.1808988!3d-8.8008672!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2451f0a3c4c21%3A0x56771eec9c453d77!2sKost%20JC!5e0!3m2!1sen!2sid!4v1730472401001!5m2!1sen!2sid"
 				name="Kost JC Dominion (D)"
 				facilities={[
 					"Wooden House",
-          "2 Shower Bathroom and Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
+          "2 Shower Bathroom and Toilet", "Shared Trash Can", "Free Electricity (500K per month per floor)",
           "Portable Foam Bed 80x195", "Lazy Chair Divan", "Topper", "Bedsheet", "Bedcover", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
@@ -26,10 +26,9 @@
             availableAt: "2024-11-15",
             normalPrice: 1_400_000,
         		discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 300K",
+	         discountTerms: "eligible if you donate to our partner each month at least 300K",
             facilities: [],
-            youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-            // TODO: make youtube lazy loading
+            // youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
           {
             name: "D12",
@@ -38,7 +37,7 @@
             availableAt: "2024-11-15",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
 			 },
@@ -49,7 +48,7 @@
             availableAt: "2024-11-15",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -60,10 +59,9 @@
             availableAt: "2024-11-15",
             normalPrice: 1_400_000,
         		discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 300K",
+	         discountTerms: "eligible if you donate to our partner each month at least 300K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-            // TODO: make youtube lazy loading
           },
           {
             name: "D25",
@@ -72,7 +70,7 @@
             availableAt: "2024-11-15",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
 			 },
@@ -83,14 +81,14 @@
             availableAt: "2024-11-15",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
         ]}
 			/>
 			<BoardingHouse
-				mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.3536318002231!2d115.17966008313937!3d-8.8034425573462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2455241786bc9%3A0x88e50b6325a3a7e0!2sCV%20Bersyukur%20Nalar%20Luas!5e0!3m2!1sen!2sid!4v1702142548984!5m2!1sen!2sid"
+				mapLink="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1971.4212310185662!2d115.1808988!3d-8.8008672!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2451f0a3c4c21%3A0x56771eec9c453d77!2sKost%20JC!5e0!3m2!1sen!2sid!4v1730472401001!5m2!1sen!2sid"
 				name="Kost JC Eternal (E)"
 				facilities={[
 					"Wooden House",
@@ -105,7 +103,7 @@
             availableAt: "2024-12-01",
             normalPrice: 1_600_000,
         		discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 500K",
+	         discountTerms: "eligible if you donate to our partner each month at least 500K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -116,7 +114,7 @@
             availableAt: "2024-12-01",
 				normalPrice: 1_400_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 300K",
+	         discountTerms: "eligible if you donate to our partner each month at least 300K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
 			 },
@@ -127,14 +125,14 @@
             availableAt: "2024-12-01",
 				normalPrice: 1_400_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 300K",
+	         discountTerms: "eligible if you donate to our partner each month at least 300K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
         ]}
 				/>
 			<BoardingHouse
-				mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.3536318002231!2d115.17966008313937!3d-8.8034425573462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2455241786bc9%3A0x88e50b6325a3a7e0!2sCV%20Bersyukur%20Nalar%20Luas!5e0!3m2!1sen!2sid!4v1702142548984!5m2!1sen!2sid"
+				mapLink="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1971.4212310185662!2d115.1808988!3d-8.8008672!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2451f0a3c4c21%3A0x56771eec9c453d77!2sKost%20JC!5e0!3m2!1sen!2sid!4v1730472401001!5m2!1sen!2sid"
 				name="Kost JC Faith (F)"
 				facilities={[
 					"Wooden House",
@@ -149,7 +147,7 @@
             availableAt: "2024-12-01",
             normalPrice: 1_600_000,
         		discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 500K",
+	         discountTerms: "eligible if you donate to our partner each month at least 500K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -160,7 +158,7 @@
             availableAt: "2024-12-01",
 				normalPrice: 1_400_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 300K",
+	         discountTerms: "eligible if you donate to our partner each month at least 300K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
 			 },
@@ -171,14 +169,14 @@
             availableAt: "2024-12-01",
 				normalPrice: 1_400_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 300K",
+	         discountTerms: "eligible if you donate to our partner each month at least 300K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
         ]}
 				/>
 			<BoardingHouse
-				mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.3536318002231!2d115.17966008313937!3d-8.8034425573462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2455241786bc9%3A0x88e50b6325a3a7e0!2sCV%20Bersyukur%20Nalar%20Luas!5e0!3m2!1sen!2sid!4v1702142548984!5m2!1sen!2sid"
+				mapLink="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1971.4212310185662!2d115.1808988!3d-8.8008672!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2451f0a3c4c21%3A0x56771eec9c453d77!2sKost%20JC!5e0!3m2!1sen!2sid!4v1730472401001!5m2!1sen!2sid"
 				name="Kost JC Grace (G)"
 				facilities={[
 					"Fibercement House",
@@ -190,10 +188,10 @@
             name: "G11",
             image_url: "/placeholder-image.webp",
             size: "4x4",
-            availableAt: "2024-10-20",
+            availableAt: "2025-10-20",
 				normalPrice: 2_000_000,
 				discountPrice: 1_500_000,
-	         discountTerms: "Donate to our partner each month at least 400K",
+	         discountTerms: "eligible if you donate to our partner each month at least 400K",
             facilities: [],
             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -201,10 +199,10 @@
             name: "G22",
             image_url: "/placeholder-image.webp",
             size: "3.5x3.5",
-            availableAt: "2024-10-30",
+            availableAt: "2024-11-30",
 				normalPrice: 1_500_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 400K",
+	         discountTerms: "eligible if you donate to our partner each month at least 400K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -212,10 +210,10 @@
             name: "G23",
             image_url: "/placeholder-image.webp",
             size: "3.5x3.5",
-            availableAt: "2024-10-30",
+            availableAt: "2024-11-30",
 				normalPrice: 1_500_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 400K",
+	         discountTerms: "eligible if you donate to our partner each month at least 400K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -223,21 +221,21 @@
             name: "G24",
             image_url: "/placeholder-image.webp",
             size: "3.5x3.5",
-            availableAt: "2024-10-30",
+            availableAt: "2024-11-30",
 				normalPrice: 1_500_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 400K",
+	         discountTerms: "eligible if you donate to our partner each month at least 400K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
         ]}
 			/>
 			<BoardingHouse
-				mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.3536318002231!2d115.17966008313937!3d-8.8034425573462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2455241786bc9%3A0x88e50b6325a3a7e0!2sCV%20Bersyukur%20Nalar%20Luas!5e0!3m2!1sen!2sid!4v1702142548984!5m2!1sen!2sid"
+				mapLink="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1971.4212310185662!2d115.1808988!3d-8.8008672!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2451f0a3c4c21%3A0x56771eec9c453d77!2sKost%20JC!5e0!3m2!1sen!2sid!4v1730472401001!5m2!1sen!2sid"
 				name="Kost JC Hope (H)"
 				facilities={[
 					"Wooden House",
-          "4 ShowerBathroom and Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
+          "4 ShowerBathroom and Toilet", "Shared Trash Can",
           "Portable Foam Bed 80x195", "Lazy Chair Divan", "Topper", "Bedsheet", "Bedcover", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
@@ -248,7 +246,7 @@
             availableAt: "2025-01-01",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -259,7 +257,7 @@
             availableAt: "2025-01-01",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -270,7 +268,7 @@
             availableAt: "2025-01-01",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -281,7 +279,7 @@
             availableAt: "2025-01-01",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -292,7 +290,7 @@
             availableAt: "2025-01-01",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -303,7 +301,7 @@
             availableAt: "2025-01-01",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -314,7 +312,7 @@
             availableAt: "2025-01-01",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -325,7 +323,7 @@
             availableAt: "2025-01-01",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -336,7 +334,7 @@
             availableAt: "2025-01-01",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -347,18 +345,18 @@
             availableAt: "2025-01-01",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
         ]}
 			/>
 			<BoardingHouse
-				mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.3536318002231!2d115.17966008313937!3d-8.8034425573462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2455241786bc9%3A0x88e50b6325a3a7e0!2sCV%20Bersyukur%20Nalar%20Luas!5e0!3m2!1sen!2sid!4v1702142548984!5m2!1sen!2sid"
+				mapLink="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1971.4212310185662!2d115.1808988!3d-8.8008672!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2451f0a3c4c21%3A0x56771eec9c453d77!2sKost%20JC!5e0!3m2!1sen!2sid!4v1730472401001!5m2!1sen!2sid"
 				name="Kost JC Incarnation (I)"
 				facilities={[
 					"Bricks and Fibercement House",
-          "4 ShowerBathroom and Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
+          "4 ShowerBathroom and Toilet", "Shared Trash Can",
           "Portable Foam Bed 80x195", "Lazy Chair Divan", "Topper", "Bedsheet", "Bedcover", "Pillow", "Bolster", "2 Pillowcase", "2 Bolstercase", "KWS Meter", "Chair", "Adjustable Desk", "Doormat", "Mirror", "Wardrobe", "AC"
         ]}
 				rooms={[
@@ -369,7 +367,7 @@
             availableAt: "2024-12-07",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -380,7 +378,7 @@
             availableAt: "2024-12-07",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -391,7 +389,7 @@
             availableAt: "2024-12-07",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -402,7 +400,7 @@
             availableAt: "2024-12-07",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -413,7 +411,7 @@
             availableAt: "2024-12-07",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -424,7 +422,7 @@
             availableAt: "2024-12-07",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -435,7 +433,7 @@
             availableAt: "2024-12-07",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -446,7 +444,7 @@
             availableAt: "2024-12-07",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -457,7 +455,7 @@
             availableAt: "2024-12-07",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -468,15 +466,15 @@
             availableAt: "2024-12-07",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 100K",
+	         discountTerms: "eligible if you donate to our partner each month at least 100K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
         ]}
 			/>
 			<BoardingHouse
-				mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.3536318002231!2d115.17966008313937!3d-8.8034425573462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2455241786bc9%3A0x88e50b6325a3a7e0!2sCV%20Bersyukur%20Nalar%20Luas!5e0!3m2!1sen!2sid!4v1702142548984!5m2!1sen!2sid"
-				name="Kost JC Incarnation (I)"
+				mapLink="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1971.4212310185662!2d115.1808988!3d-8.8008672!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2451f0a3c4c21%3A0x56771eec9c453d77!2sKost%20JC!5e0!3m2!1sen!2sid!4v1730472401001!5m2!1sen!2sid"
+				name="Kost JC Joy (J)"
 				facilities={[
 					"Fibercement House",
           "1 ShowerBathroom and Toilet", "Shared Trash Can", "Free Electricity (500K per month)",
@@ -490,7 +488,7 @@
             availableAt: "2024-12-01",
 				normalPrice: 1_500_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 400K",
+	         discountTerms: "eligible if you donate to our partner each month at least 400K",
             facilities: [],
             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },
@@ -501,7 +499,7 @@
             availableAt: "2024-12-01",
 				normalPrice: 1_500_000,
 				discountPrice: 1_000_000,
-	         discountTerms: "Donate to our partner each month at least 400K",
+	         discountTerms: "eligible if you donate to our partner each month at least 400K",
             facilities: [],
              //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
           },

@@ -23,10 +23,10 @@
           },
           {
 				 type: 'facebook',
-				  value: '/p/Panti-Asuhan-Bina-Ekklesia-_-Bali-100067168449745/',
+				  value: 'Panti-Asuhan-Bina-Ekklesia-_-Bali-100067168449745',
 			 },
 			 {
-				 type: 'BCA',
+				 type: 'Bank BCA',
 			  	value:'7670480806',
 			 }
         ]}
