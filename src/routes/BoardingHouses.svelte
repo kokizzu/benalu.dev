@@ -874,14 +874,15 @@
 
 <style>
 	.boarding_house_list {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 20px;
+    column-count: auto;
+    column-width: 500px;
+    column-gap: 20px;
 		width: 100%;
 	}
 
 	@media only screen and (max-width: 768px) {
 		.boarding_house_list {
+      display: grid;
 			grid-template-columns: 1fr;
 		}
 	}

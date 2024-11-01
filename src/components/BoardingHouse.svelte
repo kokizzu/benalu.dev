@@ -185,6 +185,9 @@
 		border-radius: 15px;
 		border: 1px solid #dddddd;
 		gap: 10px;
+		height: fit-content;
+		break-inside: avoid-column;
+		margin-bottom: 20px;
 	}
 
 	.boarding-house .details {
