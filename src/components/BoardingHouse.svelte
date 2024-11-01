@@ -1,5 +1,7 @@
 <script>
   import PopUpBoardingHouse from "./PopUpBoardingHouse.svelte";
+  import IFrameGMap from "./IFrameGMap.svelte";
+  import IFrameYoutube from "./IFrameYoutube.svelte";
 
   /**
    * @typedef {Object} room
@@ -53,16 +55,10 @@
 />
 
 <div class="boarding-house">
-  <div class="map_container">
-    <div id="googleMap" class="map">
-      <iframe
-        width="100%" height="100%"
-        src={mapLink} style="border:0;" allowfullscreen=""
-        title="Location of {name}"
-        loading="lazy"
-      ></iframe>
-    </div>
-  </div>
+  <IFrameGMap
+    name={name}
+    link={mapLink}
+  />
   <div class="details">
     <p class="name">{name}</p>
     {#if facilities && facilities.length > 0}
@@ -140,20 +136,7 @@
             </table>
           </div>
           {#if room.youtube_url}
-            <div class="youtube">
-              <iframe
-                width="100%"
-                height="315"
-                src={room.youtube_url}
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen
-                class="youtube_iframe {room.youtube_url != '' ? '' : 'hidden'}"
-              >
-              </iframe>
-            </div>
+            <IFrameYoutube link={room.youtube_url} />
           {/if}
           <button class="btn" class:available={
             new Date(room.availableAt) <= new Date()
@@ -181,17 +164,6 @@
     border-radius: 15px;
     border: 1px solid #dddddd;
     gap: 10px;
-  }
-
-  .boarding-house .map_container {
-    border-radius: 10px;
-    overflow: hidden;
-    height: fit-content;
-  }
-
-  .boarding-house .map_container .map {
-    height: 230px;
-    width: 100%;
   }
 
   .boarding-house .details {
@@ -311,19 +283,6 @@
     background-color: #f59e0b;
   }
 
-  .boarding-house .details .rooms .room_container .youtube {
-    border-radius: 10px;
-    overflow: hidden;
-  }
-
-  .boarding-house .details .rooms .room_container .youtube .youtube_iframe {
-    object-fit: cover;
-  }
-
-  .boarding-house .details .rooms .room_container .youtube .youtube_iframe.hidden {
-    display: none !important;
-  }
-
   @media only screen and (max-width : 768px) {
     .boarding-house {
       padding: 10px;
@@ -336,10 +295,6 @@
     .boarding-house .details .rooms .room_container .main .image {
       height: 130px;
       width: 100%;
-    }
-
-    .boarding-house .details .rooms .room_container .youtube .youtube_iframe {
-      height: 200px;
     }
 
     .boarding-house .details .rooms .room_container .btn {

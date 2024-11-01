@@ -28,7 +28,7 @@
         		discountPrice: 1_000_000,
 	         discountTerms: "Donate to our partner each month at least 300K",
             facilities: [],
-             //youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
+            youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
             // TODO: make youtube lazy loading
           },
           {
