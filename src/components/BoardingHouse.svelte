@@ -43,7 +43,7 @@
 			if (diffDays <= 1) {
 				return `<b>TOMORROW</b>`
 			}
-			return `available in <b>${diffDays} days</b> if current tenant doesn't extend`;
+			return `available in <b>${diffDays} days</b> if building completed or current tenant doesn't extend`;
 		} else {
 			return `<b>TODAY</b>`;
 		}
