@@ -8,6 +8,12 @@
 		<div class="heading_container pb-5">
 			<h2 class="section-title">Boarding Houses</h2>
 		</div>
+		<div>Addons:
+			<ul>
+				<li>Shared internet 100K IDR per device per month</li>
+				<li>Laundry 50K IDR per basket (max 7kg)</li>
+			</ul>
+		</div>
 		<div class="boarding_house_list">
 			<BoardingHouse
 				mapLink="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.3536318002231!2d115.17966008313937!3d-8.8034425573462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2455241786bc9%3A0x88e50b6325a3a7e0!2sCV%20Bersyukur%20Nalar%20Luas!5e0!3m2!1sen!2sid!4v1702142548984!5m2!1sen!2sid"
@@ -385,7 +391,7 @@
             name: "D11",
             image_url: "/placeholder-image.webp",
             size: "3x4",
-            availableAt: "2024-11-15",
+            availableAt: "2024-11-30",
             normalPrice: 1_400_000,
         		discountPrice: 1_000_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 300K",
@@ -396,7 +402,7 @@
             name: "D12",
             image_url: "/placeholder-image.webp",
             size: "3x3",
-            availableAt: "2024-11-15",
+            availableAt: "2024-11-30",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 100K",
@@ -407,7 +413,7 @@
             name: "D13",
             image_url: "/placeholder-image.webp",
             size: "3.5x3.5",
-            availableAt: "2024-11-15",
+            availableAt: "2024-11-30",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 100K",
@@ -418,7 +424,7 @@
             name: "D24",
             image_url: "/placeholder-image.webp",
             size: "3x4",
-            availableAt: "2024-11-15",
+            availableAt: "2024-11-30",
             normalPrice: 1_400_000,
         		discountPrice: 1_000_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 300K",
@@ -429,7 +435,7 @@
             name: "D25",
             image_url: "/placeholder-image.webp",
             size: "3x3",
-            availableAt: "2024-11-15",
+            availableAt: "2024-11-30",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 100K",
@@ -440,7 +446,7 @@
             name: "D26",
             image_url: "/placeholder-image.webp",
             size: "3.5x3.5",
-            availableAt: "2024-11-15",
+            availableAt: "2024-11-30",
 				normalPrice: 1_200_000,
 				discountPrice: 1_000_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 100K",
