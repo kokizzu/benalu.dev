@@ -556,7 +556,7 @@
             name: "G11",
             image_url: "/placeholder-image.webp",
             size: "4x4",
-            availableAt: "2025-10-20",
+            availableAt: "2025-10-20", // Kiswono
 				normalPrice: 2_000_000,
 				discountPrice: 1_500_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 400K",
@@ -567,7 +567,7 @@
             name: "G22",
             image_url: "/placeholder-image.webp",
             size: "3.5x3.5",
-            availableAt: "2024-12-31",
+            availableAt: "2024-12-31", // pak Wawan Slarch
 				normalPrice: 1_500_000,
 				discountPrice: 1_000_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 400K",
@@ -578,7 +578,7 @@
             name: "G23",
             image_url: "/placeholder-image.webp",
             size: "3.5x3.5",
-            availableAt: "2024-12-31",
+            availableAt: "2024-12-31", // pak Dhimas Shaka
 				normalPrice: 1_500_000,
 				discountPrice: 1_000_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 400K",
@@ -589,7 +589,7 @@
             name: "G24",
             image_url: "/placeholder-image.webp",
             size: "3.5x3.5",
-            availableAt: "2024-12-31",
+            availableAt: "2024-12-31", // pak Dani Slarch
 				normalPrice: 1_500_000,
 				discountPrice: 1_000_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 400K",
@@ -853,7 +853,7 @@
             name: "J21",
             image_url: "/placeholder-image.webp",
             size: "3.5x3.5",
-            availableAt: "2025-12-11",
+            availableAt: "2025-12-11", // Fatmawati
 				normalPrice: 1_500_000,
 				discountPrice: 1_000_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 400K",
@@ -864,7 +864,7 @@
             name: "J22",
             image_url: "/placeholder-image.webp",
             size: "4x3",
-            availableAt: "2026-12-19",
+            availableAt: "2026-12-19", // Ning Darsih
 				normalPrice: 1_500_000,
 				discountPrice: 1_000_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 400K",
