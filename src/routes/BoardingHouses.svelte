@@ -567,7 +567,7 @@
             name: "G22",
             image_url: "/placeholder-image.webp",
             size: "3.5x3.5",
-            availableAt: "2024-12-31", // pak Wawan Slarch
+            availableAt: "2025-02-29", // pak Wawan Slarch
 				normalPrice: 1_500_000,
 				discountPrice: 1_000_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 400K",
