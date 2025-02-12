@@ -1,5 +1,6 @@
 <script>
 	import PopUpBoardingHouse from "./PopUpBoardingHouse.svelte";
+	import PopUpImage from "./PopUpImage.svelte";
 	import IFrameGMap from "./IFrameGMap.svelte";
 	import IFrameYoutube from "./IFrameYoutube.svelte";
 
@@ -59,12 +60,29 @@
 		const size = (parseFloat(width) * parseFloat(height) || 0).toFixed(1)
 		return `<b>${width}</b>m x <b>${height}</b>m (<b>${size}</b> m<sup>2</sup>)`;
 	}
+
+	let imageTitle = "";
+	let imageUrl = "";
+	let popUpImage = PopUpImage;
+
+
+	function showPopUpImage(url, roomName) {
+		imageUrl = url.replace("-160x160", "");;
+		imageTitle = "Floor Plan for "+roomName;
+		popUpImage.Show();
+	}
 </script>
 
 <PopUpBoardingHouse
 	bind:this={popUpBoardingHouse}
 	HOUSE_NAME={name}
 	bind:ROOM_NAME={roomNameToAsk}
+/>
+
+<PopUpImage
+	bind:this={popUpImage}
+	bind:title={imageTitle}
+	bind:imageUrl={imageUrl}
 />
 
 <div class="boarding-house">
@@ -86,7 +104,8 @@
 			{#each (rooms || []) as room}
 				<div class="room_container">
 					<div class="main">
-						<div class="image">
+						<!-- svelte-ignore a11y-click-events-have-key-events -->
+						<div class="image" on:click={() => showPopUpImage(room.image_url, room.name)}>
 							<img
 								src={room.image_url}
 								on:error={() => room.image_url = '/placeholder-image.webp'}
@@ -97,15 +116,18 @@
 							<tbody>
 							<tr>
 								<td class="key">Room Number</td>
-								<td class="value">: <b class="spaced">{room.name}</b></td>
+								<td class="sep">:</td>
+								<td class="value"><b class="spaced">{room.name}</b></td>
 							</tr>
 							<tr>
 								<td class="key">Size</td>
-								<td class="value">: {@html renderRoomSize(room.size)}</td>
+								<td class="sep">:</td>
+								<td class="value">{@html renderRoomSize(room.size)}</td>
 							</tr>
 							<tr>
 								<td class="key">Price</td>
-								<td class="value">: <b>{
+								<td class="sep">:</td>
+								<td class="value"><b>{
 									new Intl.NumberFormat('id', {
 										style: 'currency',
 										currency: 'IDR',
@@ -118,7 +140,8 @@
 							</tr>
 							<tr>
 								<td class="key">Discount Price</td>
-								<td class="value">: <b>{
+								<td class="sep">:</td>
+								<td class="value"><b>{
 									new Intl.NumberFormat('id', {
 										style: 'currency',
 										currency: 'IDR',
@@ -132,7 +155,8 @@
 							</tr>
 							<tr>
 								<td class="key">Available At</td>
-								<td class="value">: {room.availableAt} ({@html
+								<td class="sep">:</td>
+								<td class="value">{room.availableAt} ({@html
 									room.availableAt
 										? renderAvailability(room.availableAt)
 										: "--"
@@ -142,7 +166,8 @@
 							{#if room.facilities.length > 0}
 								<tr>
 									<td class="key">Facilities</td>
-									<td class="value">: {
+									<td class="sep">:</td>
+									<td class="value">{
 										room.facilities && room.facilities.length > 0
 											? room.facilities.join(', ')
 											: '--'
@@ -156,14 +181,14 @@
 						<IFrameYoutube link={room.youtube_url}/>
 					{/if}
 					<button class="btn" class:available={
-            new Date(room.availableAt) <= new Date()
-          } class:unavailable={
-            new Date(room.availableAt) > new Date()
-          }
-							  on:click={() => {
-            roomNameToAsk = room.name;
-            popUpBoardingHouse.Show(room)
-          }}>
+							new Date(room.availableAt) <= new Date()
+						} class:unavailable={
+							new Date(room.availableAt) > new Date()
+						}
+						on:click={() => {
+							roomNameToAsk = room.name;
+							popUpBoardingHouse.Show(room)
+						}}>
 						Ask
 					</button>
 				</div>
@@ -173,6 +198,10 @@
 </div>
 
 <style>
+	td {
+		vertical-align: top;
+	}
+
 	b.spaced {
 		letter-spacing: 3px;
 	}
@@ -257,12 +286,22 @@
 		width: 200px;
 		border-radius: 8px;
 		overflow: hidden;
+		border: 1px solid transparent;
+		cursor: pointer;
+		background: transparent;
+		transition-property: all;
+    transition-timing-function: linear;
+    transition-duration: .2s;
 	}
 
 	.boarding-house .details .rooms .room_container .main .image img {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+	}
+
+	.boarding-house .details .rooms .room_container .main .image img:hover {
+		transform: scale(1.1);
 	}
 
 	.boarding-house .details .rooms .room_container .main .room {
@@ -277,6 +316,10 @@
 		padding-right: 10px;
 		width: 110px;
 		font-weight: bold;
+	}
+
+	.boarding-house .details .rooms .room_container .main .room .sep {
+		width: fit-content;
 	}
 
 	.boarding-house .details .rooms .room_container .btn {
