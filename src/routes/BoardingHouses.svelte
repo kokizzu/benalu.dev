@@ -488,7 +488,7 @@
 			 },
           {
             name: "E23",
-            image_url: "/img/KostJC-Lt2/E22-160x160.png",
+            image_url: "/img/KostJC-Lt2/E23-160x160.png",
             size: "3x4",
             availableAt: "2025-02-17",
 				normalPrice: 1_400_000,
