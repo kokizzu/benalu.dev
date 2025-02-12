@@ -851,7 +851,7 @@
 				rooms={[
           {
             name: "J21",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/J21-160x160.png",
             size: "3.5x3.5",
             availableAt: "2025-12-11", // Fatmawati
 				normalPrice: 1_500_000,
@@ -862,7 +862,7 @@
           },
           {
             name: "J22",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/J22-160x160.png",
             size: "4x3",
             availableAt: "2026-12-19", // Ning Darsih
 				normalPrice: 1_500_000,

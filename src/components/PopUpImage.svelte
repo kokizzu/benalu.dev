@@ -12,7 +12,8 @@
 
 </script>
 
-<div class={`popup_container ${isShow ? 'show' : ''}`}>
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<div class={`popup_container ${isShow ? 'show' : ''}`} on:click={Hide}>
 	<div class="popup">
 		<header class="header">
 			<h2>{title}</h2>
@@ -70,7 +71,7 @@
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		padding: 25px 20px 10px 20px;
+		padding: 20px 20px 10px 20px;
 		border-bottom: 1px solid var(--gray-004);
 	}
 

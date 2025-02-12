@@ -68,7 +68,7 @@
 
 	function showPopUpImage(url, roomName) {
 		imageUrl = url.replace("-160x160", "");;
-		imageTitle = "Floor Plan for "+roomName;
+		imageTitle = "Floor Plan for Room "+roomName;
 		popUpImage.Show();
 	}
 </script>
