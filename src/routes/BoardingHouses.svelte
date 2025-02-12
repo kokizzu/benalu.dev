@@ -30,7 +30,7 @@
             size: "3x4",
             availableAt: "2025-06-01",
             normalPrice: 1_600_000,
-        		discountPrice: 1_000_000,
+            discountPrice: 1_000_000,
 	         discountTerms: "eligible if you donate to our partner each month at least 500K",
             facilities: [],
             // youtube_url: "https://www.youtube.com/embed/dQw4w9WgXcQ",
@@ -389,7 +389,7 @@
 				rooms={[
           {
             name: "D11",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/D11.png",
             size: "3x4",
             availableAt: "2025-01-18",
             normalPrice: 1_400_000,
@@ -400,7 +400,7 @@
           },
           {
             name: "D12",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/D12.png",
             size: "3x3",
             availableAt: "2025-01-18",
 				normalPrice: 1_200_000,
@@ -411,7 +411,7 @@
 			 },
           {
             name: "D13",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/D13.png",
             size: "3.5x3.5",
             availableAt: "2025-01-18",
 				normalPrice: 1_200_000,
@@ -422,7 +422,7 @@
           },
           {
             name: "D24",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/D24.png",
             size: "3x4",
             availableAt: "2025-01-18", // Waluyo, Lili Muhamad Ababil, Ardiyanur Arkom
             normalPrice: 1_400_000,
@@ -433,7 +433,7 @@
           },
           {
             name: "D25",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/D25.png",
             size: "3x3",
             availableAt: "2025-01-18", // Solihin, Dodi Efendi
 				normalPrice: 1_200_000,
@@ -444,7 +444,7 @@
 			 },
           {
             name: "D26",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/D26.png",
             size: "3.5x3.5",
             availableAt: "2025-01-18",
 				normalPrice: 1_200_000,
@@ -466,7 +466,7 @@
 				rooms={[
           {
             name: "E11",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/E11.png",
             size: "3x4",
             availableAt: "2025-02-17",
             normalPrice: 1_600_000,
@@ -477,7 +477,7 @@
           },
           {
             name: "E22",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/E22.png",
             size: "3x4",
             availableAt: "2025-02-17",
 				normalPrice: 1_400_000,
@@ -488,7 +488,7 @@
 			 },
           {
             name: "E23",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/E22.png",
             size: "3x4",
             availableAt: "2025-02-17",
 				normalPrice: 1_400_000,
@@ -510,7 +510,7 @@
 				rooms={[
           {
             name: "F11",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/F11.png",
             size: "3x4",
             availableAt: "2025-02-17",
             normalPrice: 1_600_000,
@@ -521,7 +521,7 @@
           },
           {
             name: "F22",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/F22.png",
             size: "3x4",
             availableAt: "2025-02-17",
 				normalPrice: 1_400_000,
@@ -532,7 +532,7 @@
 			 },
           {
             name: "F23",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/F23.png",
             size: "3x4",
             availableAt: "2025-02-17",
 				normalPrice: 1_400_000,
@@ -554,7 +554,7 @@
 				rooms={[
           {
             name: "G11",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/G11.png",
             size: "4x4",
             availableAt: "2025-10-20", // Kiswono
 				normalPrice: 2_000_000,
@@ -565,7 +565,7 @@
           },
           {
             name: "G22",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/G22.png",
             size: "3.5x3.5",
             availableAt: "2024-12-31", // pak Wawan Slarch
 				normalPrice: 1_500_000,
@@ -576,7 +576,7 @@
           },
           {
             name: "G23",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/G23.png",
             size: "3.5x3.5",
             availableAt: "2025-02-29", // pak Dhimas Shaka
 				normalPrice: 1_500_000,
@@ -587,7 +587,7 @@
           },
           {
             name: "G24",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/G24.png",
             size: "3.5x3.5",
             availableAt: "2025-02-29", // pak Dani Slarch
 				normalPrice: 1_500_000,
@@ -609,7 +609,7 @@
 				rooms={[
           {
             name: "H10",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/H10.png",
             size: "2.5x3.5",
             availableAt: "2025-03-01",
 				normalPrice: 1_200_000,
@@ -620,7 +620,7 @@
           },
           {
             name: "H11",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/H11.png",
             size: "2.5x3.5",
             availableAt: "2025-03-01",
 				normalPrice: 1_200_000,
@@ -631,7 +631,7 @@
           },
           {
             name: "H12",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/H12.png",
             size: "2.5x3.5",
             availableAt: "2025-03-01",
 				normalPrice: 1_200_000,
@@ -642,7 +642,7 @@
           },
           {
             name: "H13",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/H13.png",
             size: "2.5x3.5",
             availableAt: "2025-03-01",
 				normalPrice: 1_200_000,
@@ -653,7 +653,7 @@
           },
           {
             name: "H14",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/H14.png",
             size: "2.5x3.5",
             availableAt: "2025-02-01",
 				normalPrice: 1_200_000,
@@ -664,7 +664,7 @@
           },
           {
             name: "H25",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/H25.png",
             size: "2.5x3.5",
             availableAt: "2025-03-14",
 				normalPrice: 1_200_000,
@@ -675,7 +675,7 @@
           },
           {
             name: "H26",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/H26.png",
             size: "2.5x3.5",
             availableAt: "2025-03-14",
 				normalPrice: 1_200_000,
@@ -686,7 +686,7 @@
           },
           {
             name: "H27",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/H27.png",
             size: "2.5x3.5",
             availableAt: "2025-03-14",
 				normalPrice: 1_200_000,
@@ -697,7 +697,7 @@
           },
           {
             name: "H28",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/H28.png",
             size: "2.5x3.5",
             availableAt: "2025-03-14",
 				normalPrice: 1_200_000,
@@ -708,7 +708,7 @@
           },
           {
             name: "H29",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/H29.png",
             size: "2.5x3.5",
             availableAt: "2025-03-14",
 				normalPrice: 1_200_000,
@@ -730,7 +730,7 @@
 				rooms={[
           {
             name: "I10",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/i10.png",
             size: "2.5x3.5",
             availableAt: "2025-02-01",
 				normalPrice: 1_300_000,
@@ -741,7 +741,7 @@
           },
           {
             name: "I11",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/i11.png",
             size: "2.5x3.5",
             availableAt: "2025-02-01",
 				normalPrice: 1_300_000,
@@ -752,7 +752,7 @@
           },
           {
             name: "I12",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/i12.png",
             size: "2.5x3.5",
             availableAt: "2025-02-01",
 				normalPrice: 1_300_000,
@@ -763,7 +763,7 @@
           },
           {
             name: "I13",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/i13.png",
             size: "2.5x3.5",
             availableAt: "2025-02-01",
 				normalPrice: 1_300_000,
@@ -774,7 +774,7 @@
           },
           {
             name: "I14",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt1/i14.png",
             size: "2.5x3.5",
             availableAt: "2025-02-01",
 				normalPrice: 1_300_000,
@@ -785,7 +785,7 @@
           },
           {
             name: "I25",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/i25.png",
             size: "2.5x3.5",
             availableAt: "2025-03-15",
 				normalPrice: 1_200_000,
@@ -796,7 +796,7 @@
           },
           {
             name: "I26",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/i26.png",
             size: "2.5x3.5",
             availableAt: "2025-03-15",
 				normalPrice: 1_200_000,
@@ -807,7 +807,7 @@
           },
           {
             name: "I27",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/i27.png",
             size: "2.5x3.5",
             availableAt: "2025-03-15",
 				normalPrice: 1_200_000,
@@ -818,7 +818,7 @@
           },
           {
             name: "I28",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/i28.png",
             size: "2.5x3.5",
             availableAt: "2025-03-15",
 				normalPrice: 1_200_000,
@@ -829,7 +829,7 @@
           },
           {
             name: "I29",
-            image_url: "/placeholder-image.webp",
+            image_url: "/img/KostJC-Lt2/i29.png",
             size: "2.5x3.5",
             availableAt: "2025-03-15",
 				normalPrice: 1_200_000,
