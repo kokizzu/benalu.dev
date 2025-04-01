@@ -44,7 +44,7 @@
 			if (diffDays <= 1) {
 				return `<b>TOMORROW</b>`
 			}
-			return `available in <b>${diffDays} days</b> if building completed or current tenant doesn't extend`;
+			return `available in <b>${diffDays} days</b> if building completed or current tenant not extending the rent`;
 		} else {
 			return `<b>TODAY</b>`;
 		}
@@ -67,8 +67,9 @@
 
 
 	function showPopUpImage(url, roomName) {
-		imageUrl = url.replace("-160x160", "");;
-		imageTitle = "Floor Plan for Room "+roomName;
+		imageUrl = url.replace("-160x160", "");
+		;
+		imageTitle = "Floor Plan for Room " + roomName;
 		popUpImage.Show();
 	}
 </script>
@@ -138,21 +139,23 @@
 									)
 								}</b></td>
 							</tr>
-							<tr>
-								<td class="key">Discount Price</td>
-								<td class="sep">:</td>
-								<td class="value"><b>{
-									new Intl.NumberFormat('id', {
-										style: 'currency',
-										currency: 'IDR',
-										minimumFractionDigits: 0,
-										maximumFractionDigits: 0
-									}).format(
-										Number(room.discountPrice || 0)
-									)
-								}</b> ({room.discountTerms})
-								</td>
-							</tr>
+							{#if room.normalPrice > 1_000_000}
+								<tr>
+									<td class="key">Discount Price</td>
+									<td class="sep">:</td>
+									<td class="value"><b>{
+										new Intl.NumberFormat('id', {
+											style: 'currency',
+											currency: 'IDR',
+											minimumFractionDigits: 0,
+											maximumFractionDigits: 0
+										}).format(
+											Number(1_000_000)
+										)
+									}</b> (eligible if you donate to our partner at least {Math.floor(room.normalPrice/1000-1000)}K per month)
+									</td>
+								</tr>
+							{/if}
 							<tr>
 								<td class="key">Available At</td>
 								<td class="sep">:</td>
@@ -185,7 +188,7 @@
 						} class:unavailable={
 							new Date(room.availableAt) > new Date()
 						}
-						on:click={() => {
+							  on:click={() => {
 							roomNameToAsk = room.name;
 							popUpBoardingHouse.Show(room)
 						}}>
@@ -290,8 +293,8 @@
 		cursor: pointer;
 		background: transparent;
 		transition-property: all;
-    transition-timing-function: linear;
-    transition-duration: .2s;
+		transition-timing-function: linear;
+		transition-duration: .2s;
 	}
 
 	.boarding-house .details .rooms .room_container .main .image img {
